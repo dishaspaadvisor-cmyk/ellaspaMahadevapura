@@ -1,69 +1,406 @@
-import Image from "next/image";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import ServiceCard from "@/components/ServiceCard";
+import GalleryCard from "@/components/GalleryCard";
+import OfferCard from "@/components/OfferCard";
+import FAQ from "@/components/FAQ";
+
+import Link from "next/link";
+
+import { galleryData } from "@/Data/galleryData";
+import { offersData } from "@/Data/offerdata";
+import AboutPage from "./about/page";
+import ContactCard from "@/components/ContactCard";
+import { servicesData } from "@/Data/servicesData";
+import { siteData } from "@/Data/siteData";
+import { faqData } from "@/Data/faqdata";
+
+
+
 
 export default function Home() {
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.js
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+
+    <main id="home">
+
+
+      {/* =================================================
+          NAVBAR
+      ================================================= */}
+
+      <Navbar
+        brand={siteData.brand}
+        links={siteData.navbar.links}
+        button={siteData.navbar.button}
+      />
+
+
+      {/* =================================================
+          HERO
+      ================================================= */}
+
+      <Hero
+        hero={siteData.hero}
+      />
+
+
+      {/* =================================================
+          SERVICES
+      ================================================= */}
+      <section
+        id="services"
+        className="home-services"
+      >
+        {/* SERVICES HEADING */}
+
+        <div className="home-services-heading">
+
+          <span>
+            {servicesData.page.eyebrow}
+          </span>
+
+          <h2>
+            {servicesData.page.title}
+
+            <br />
+
+            <em>
+              {servicesData.page.titleAccent}
+            </em>
+          </h2>
+
+          <p>
+            {servicesData.page.description}
           </p>
+
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+
+
+        {/* FIRST 9 SERVICE CARDS */}
+
+        <div
+          id="services-grid"
+          className="services-grid"
+        >
+
+          {servicesData.items
+            .slice(0, 9)
+            .map((service, index) => (
+              <ServiceCard
+                key={service.id || index}
+                service={service}
+                index={index}
+              />
+            ))}
+
         </div>
-      </main>
-    </div>
+
+
+        {/* SERVICES BUTTON */}
+
+        <div
+          className="home-services-button"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "100%",
+            padding:"20px " 
+           
+          }}
+        >
+
+          <Link
+            href="/services"
+            className="home-section-button "
+          >
+
+            <span>
+              Explore All Services
+            </span>
+
+            <span>
+              ↗
+            </span>
+
+          </Link>
+
+        </div>
+
+      </section>
+
+
+      {/* about page */}
+      <AboutPage />
+
+
+
+      {/* =================================================
+          GALLERY
+      ================================================= */}
+
+      <section
+        id="gallery"
+        className="home-gallery"
+      >
+
+        {/* GALLERY HEADING */}
+
+        <div className="home-gallery-heading">
+
+          <span className="gallery-eyebrow">
+
+            {galleryData.page.eyebrow}
+
+          </span>
+
+
+          <h2 className="gallery-title">
+
+            {galleryData.page.title}
+
+            <br />
+
+            <em>
+              {galleryData.page.titleAccent}
+            </em>
+
+          </h2>
+
+
+          <p className="gallery-description">
+
+            {galleryData.page.description}
+
+          </p>
+
+        </div>
+
+
+        {/* GALLERY GRID */}
+
+        <div className="gallery-grid">
+
+          {galleryData.images.map(
+            (item, index) => (
+
+              <GalleryCard
+                key={
+                  item.id ||
+                  index
+                }
+
+                image={
+                  item.image
+                }
+
+                alt={
+                  item.alt
+                }
+
+                title={
+                  item.title
+                }
+
+                category={
+                  item.category
+                }
+
+                number={
+                  item.number ||
+                  String(
+                    item.id ||
+                    index + 1
+                  ).padStart(
+                    2,
+                    "0"
+                  )
+                }
+
+                index={
+                  index
+                }
+
+              />
+
+            )
+          )}
+
+        </div>
+
+
+        {/* FULL GALLERY BUTTON */}
+
+        <div className="home-gallery-button">
+
+          <Link
+            href="/gallery"
+            className="gallery-cta-button "
+          >
+
+            <span className="text-black">
+              View Full Gallery
+            </span>
+
+            <span>
+              ↗
+            </span>
+
+          </Link>
+
+        </div>
+
+      </section>
+
+
+
+      {/* =================================================
+          OFFERS
+      ================================================= */}
+
+      <section
+        id="offers"
+        className="home-offers"
+      >
+
+        {/* OFFERS HEADING */}
+
+        <div
+          className="home-offers-heading"
+          style={{
+            width: "100%",
+            textAlign: "center",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            margin: "0 auto",
+          }}
+        >
+
+          <span
+            className="offers-eyebrow"
+            style={{
+              display: "block",
+              textAlign: "center",
+            }}
+          >
+            {offersData.page.eyebrow}
+          </span>
+
+
+          <h2
+            className="offers-title"
+            style={{
+              textAlign: "center",
+              margin: "0 auto",
+            }}
+          >
+
+            {offersData.page.title}
+
+            <br />
+
+            <em>
+              {offersData.page.titleAccent}
+            </em>
+
+          </h2>
+
+
+          <p
+            className="offers-description"
+            style={{
+              textAlign: "center",
+              marginLeft: "auto",
+              marginRight: "auto",
+              maxWidth: "600px",
+            }}
+          >
+            {offersData.page.description}
+          </p>
+
+        </div>
+
+
+        {/* OFFER CARDS */}
+
+        <div className="offers-grid">
+
+          {offersData.items.map(
+            (offer, index) => (
+
+              <OfferCard
+                key={
+                  offer.id ||
+                  index
+                }
+
+                offer={
+                  offer
+                }
+
+                index={
+                  index
+                }
+
+                phone={
+                  siteData.contact.phone
+                }
+
+                whatsapp={
+                  siteData.contact.whatsapp
+                }
+
+              />
+
+            )
+          )}
+
+        </div>
+
+
+        {/* OFFERS BUTTON */}
+
+        <div
+          className="home-offers-button"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "100%",
+            padding:"20px",
+          }}
+        >
+
+          <Link
+            href="/offers"
+            className="home-section-button"
+          >
+
+            <span>
+              View All Offers
+            </span>
+
+            <span>
+              ↗
+            </span>
+
+          </Link>
+
+        </div>
+
+      </section>
+
+      <FAQ
+        data={faqData}
+      />
+
+
+      <ContactCard />
+
+    </main>
+
   );
 }
