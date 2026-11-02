@@ -37,7 +37,7 @@ export default function FloatingButtons() {
 
 
   const whatsappMessage =
-    "Hi, I am visiting the Ovia Wellness website. I would like to know more about your spa services and today's availability.";
+    "Hi, I am visiting the ELLA SPA website. I would like to know more about your spa services and today's availability.";
 
 
   const whatsappUrl =
@@ -62,7 +62,7 @@ export default function FloatingButtons() {
         <a
           href={phoneUrl}
           className="floating-button floating-call"
-          aria-label="Call Ovia Wellness"
+          aria-label="Call ELLA SPA"
         >
 
           <span className="floating-icon">
@@ -87,7 +87,7 @@ export default function FloatingButtons() {
           target="_blank"
           rel="noopener noreferrer"
           className="floating-button floating-whatsapp"
-          aria-label="WhatsApp Ovia Wellness"
+          aria-label="WhatsApp ELLA SPA"
         >
 
           <span className="floating-icon">
@@ -181,8 +181,8 @@ export default function FloatingButtons() {
           background:
             linear-gradient(
               135deg,
-              #c9a35f,
-              #967039
+              #3b0e0e,
+              #360c0c
             );
 
           animation:

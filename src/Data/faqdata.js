@@ -21,7 +21,7 @@ export const faqData = {
         "What treatments do you offer?",
 
       answer:
-        "Ovia Wellness offers a carefully selected range of massage and wellness experiences including Swedish Massage, Deep Tissue Massage, Aromatherapy Massage, Thai Massage, Couples Massage, Head & Shoulder Massage, Foot Reflexology and our Signature Spa Experience.",
+        "ELLA SPA offers a carefully selected range of massage and wellness experiences including Swedish Massage, Deep Tissue Massage, Aromatherapy Massage, Thai Massage, Couples Massage, Head & Shoulder Massage, Foot Reflexology and our Signature Spa Experience.",
     },
 
     {
@@ -91,7 +91,7 @@ export const faqData = {
         "How can I book a treatment?",
 
       answer:
-        "You can contact Ovia Wellness directly by phone or WhatsApp to discuss your preferred treatment and appointment time.",
+        "You can contact ELLA SPA directly by phone or WhatsApp to discuss your preferred treatment and appointment time.",
     },
 
   ],

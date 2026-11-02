@@ -161,7 +161,7 @@ export default function OfferPopup() {
 
 
   const whatsappMessage =
-    "Hi, I saw the ₹1,999 special offer on the Ovia Wellness website. I would like to know more about the offer and today's availability.";
+    "Hi, I saw the ₹1,999 special offer on the ELLA SPA website. I would like to know more about the offer and today's availability.";
 
 
   const whatsappUrl =
@@ -254,7 +254,7 @@ export default function OfferPopup() {
 
             <img
               src="/service/14.png"
-              alt="Ovia Wellness ₹1,999 special offer"
+              alt="ELLA SPA ₹1,999 special offer"
             />
 
             <div className="offer-image-overlay" />
@@ -275,12 +275,12 @@ export default function OfferPopup() {
           <div className="offer-content">
 
             <span className="offer-eyebrow">
-              Ovia Wellness
+              ELLA SPA
             </span>
 
 
             <h2 id="offer-title">
-              Relax & Rejuvenate
+              Best Offer Available Now
             </h2>
 
 

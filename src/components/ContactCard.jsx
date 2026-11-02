@@ -113,7 +113,7 @@ export default function ContactCard() {
           },
 
           body: JSON.stringify({
-            form_key: "frm_ariswellnessspa_553566",
+            form_key: "frm_ella_spa_mahadevapura_213049",
             name: formData.name,
             phone: formData.phone,
             address: formData.address,
@@ -158,7 +158,7 @@ export default function ContactCard() {
   ===================================================== */
 
   const whatsappMessage =
-    "Hi, I am visiting the Aris Wellness Spa website. I would like to know about your spa services and today's availability.";
+    "Hi, I am visiting the Ella Spa website. I would like to know about your spa services and today's availability.";
 
   const whatsappUrl = `${contact.whatsappUrl
     }?text=${encodeURIComponent(whatsappMessage)}`;
@@ -223,7 +223,7 @@ export default function ContactCard() {
             <div className="contact-info-top">
 
               <span className="contact-small-label">
-                ARIS WELLNESS SPA
+                Ella Spa
               </span>
 
               <h3>
@@ -543,7 +543,7 @@ export default function ContactCard() {
 
             <iframe
               src={contact.mapUrl}
-              title="Aris Wellness Spa location"
+              title="Ella Spa location"
               loading="lazy"
               allowFullScreen
               referrerPolicy="no-referrer-when-downgrade"
@@ -565,7 +565,7 @@ export default function ContactCard() {
               </span>
 
               <h4>
-                Aris Wellness Spa
+                Ella Spa
               </h4>
 
               <p>

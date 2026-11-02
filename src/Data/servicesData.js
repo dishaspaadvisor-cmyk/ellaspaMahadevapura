@@ -19,346 +19,15 @@ export const servicesData = {
   items: [
 
 
-     
-    {
-      id: "sandwich-massage-thrissu",
-
-      number: "11",
-
-      title: "Sandwich-massage",
-
-      shortTitle: "Specialty Massage",
-
-      category: "Specialty",
-
-      duration: "60–90 min",
-
-      image: "/service/22.png",
-
-      imageAlt:
-        "Private specialty massage experience",
-
-      seoTitle:
-        "Specialty Massage Experience | Private Wellness Treatment",
-
-      seoDescription:
-        "Discover a private specialty massage experience focused on relaxation, comfort and personalized wellness service.",
-
-      keywords: [
-        "specialty massage",
-        "specialty massage experience",
-        "private massage",
-        "private spa treatment",
-        "personalized massage",
-        "wellness massage",
-        "relaxation massage",
-        "premium spa treatment",
-        "professional massage service",
-        "private wellness experience",
-      ],
-
-      shortDescription:
-        "A private specialty massage experience designed around personalized comfort and a peaceful spa atmosphere.",
-
-      description:
-        "This specialty massage experience provides a private and comfortable setting for guests seeking a more personalized wellness session. Treatment expectations and comfort preferences can be discussed before the appointment.",
-
-      overview:
-        "The treatment is centered around a private spa environment, professional service and individual preferences. Guests can communicate their preferred pressure and treatment expectations before the session.",
-
-      benefits: [
-        "Private spa environment",
-        "Personalized treatment experience",
-        "Relaxation-focused atmosphere",
-        "Comfort-oriented service",
-        "Professional wellness setting",
-        "Individual attention",
-      ],
-
-      idealFor: [
-        "Guests seeking privacy",
-        "Guests wanting personalized massage",
-        "Visitors looking for a specialty experience",
-        "Guests who prefer individual attention",
-      ],
-
-      whatToExpect: [
-        "Comfort-focused consultation",
-        "Private treatment setting",
-        "Personalized massage approach",
-        "Professional service",
-        "Peaceful finishing experience",
-      ],
-
-      faq: [
-        {
-          question: "Can treatment preferences be discussed?",
-          answer:
-            "Yes. Guests can discuss their preferences and comfort expectations before beginning the treatment.",
-        },
-        {
-          question: "How long is the session?",
-          answer:
-            "Sessions are available for approximately 60 to 90 minutes.",
-        },
-      ],
-
-      featured: false,
-
-      href: "/services/sandwich-massage-thrissu",
-    },
-
-        // nuru-massage-thrissur
-
-    {
-      id: "nuru-massage-thrissur",
-
-      number: "10",
-
-      title: "Nuru-massage ",
-
-      shortTitle: "Nuru Massage",
-
-      category: "Specialty",
-
-      duration: "60–90 min",
-
-      image: "/service/33.png",
-
-      imageAlt:
-        "Private Nuru Massage experience at a professional spa in Thrissur, Kerala",
-
-      seoTitle:
-        "Nuru Massage Experience in Thrissur | Private Spa Treatment",
-
-      seoDescription:
-        "Enjoy a private Nuru Massage experience in Thrissur, Kerala, designed around relaxation, personal comfort, privacy and a peaceful spa environment.",
-
-      keywords: [
-        "Nuru Massage experience Thrissur",
-        "Happy Ending Massage Thrissur",
-        "private wellness treatment Thrissur",
-        "specialty spa experience Thrissur",
-        "premium spa treatment Thrissur",
-        "personalized wellness Thrissur",
-        "private spa treatment Thrissur",
-        "relaxation experience Thrissur",
-        "professional spa service Thrissur",
-        "wellness experience Thrissur",
-        "private relaxation spa Thrissur",
-        "specialty massage Thrissur",
-        "premium wellness experience Thrissur",
-        "spa treatment in Thrissur",
-        "wellness spa in Thrissur",
-      ],
-
-      shortDescription:
-        "A private Nuru Massage experience in Thrissur designed around comfort, relaxation, privacy and personalized service.",
-
-      description:
-        "Our Nuru Massage Experience in Thrissur is designed for guests who prefer a more private and personalized spa environment. The experience focuses on comfort, privacy and attentive service, with treatment preferences and expectations discussed with the spa team before the session.",
-
-      overview:
-        "The experience focuses on creating a comfortable and private wellness environment for every guest. Treatment preferences, expectations and comfort levels can be discussed before beginning, allowing the session to be approached in a professional and personalized manner. Our spa is conveniently located at City Tower, near Patturaikkal Junction on Shoranur Road, Thrissur.",
-
-      benefits: [
-        "Private and comfortable wellness environment",
-        "Personalized guest experience",
-        "Comfort-focused service",
-        "Relaxation-oriented atmosphere",
-        "Professional spa service",
-        "Dedicated personal attention",
-      ],
-
-      idealFor: [
-        "Guests looking for a Happy Ending Massage in Thrissur",
-        "Guests who value privacy and personal comfort",
-        "Visitors looking for a specialty spa experience",
-        "Guests wanting personalized wellness service",
-        "People who prefer a quieter spa environment",
-      ],
-
-      whatToExpect: [
-        "A private and comfortable treatment environment",
-        "A pre-treatment discussion about preferences",
-        "A personalized approach to the experience",
-        "Professional and attentive spa service",
-        "Comfort-focused treatment",
-        "A calm and peaceful finishing experience",
-      ],
-
-      faq: [
-        {
-          question: "Where can I enjoy a Happy Ending Massage in Thrissur?",
-          answer:
-            "You can enjoy our private Nuru Massage Experience at City Tower, near Patturaikkal Junction on Shoranur Road, Patturakkal, Thrissur, Kerala – 680022.",
-        },
-        {
-          question: "What is the Nuru Massage Experience?",
-          answer:
-            "It is a private and personalized spa experience focused on comfort, relaxation and attentive professional service in a peaceful environment.",
-        },
-        {
-          question: "Is this a Happy Ending Massage?",
-          answer:
-            "Yes. The experience is designed around privacy, comfort and personalized wellness service.",
-        },
-        {
-          question: "Can I discuss my preferences beforehand?",
-          answer:
-            "Yes. Treatment preferences, expectations and comfort considerations can be discussed with the spa team before the session.",
-        },
-        {
-          question: "How long is the Nuru Massage session?",
-          answer:
-            "Sessions are available for approximately 60 to 90 minutes, depending on the selected experience.",
-        },
-        {
-          question: "Where is your spa located in Thrissur?",
-          answer:
-            "Our spa is located at Door No. 36/5860-7, Second Floor, City Tower, near Patturaikkal Junction, Shoranur Road, Patturakkal, Thrissur Corporation, Thrissur, Kerala – 680022.",
-        },
-      ],
-
-      featured: false,
-
-      href: "/services/nuru-massage-thrissur",
-    },
-
-
-
-    //  b2b-massage-thrissur
-
-    {
-      id: "b2b-massage-thrissur",
-
-      number: "09",
-
-      title: "B2B Massage ",
-
-      shortTitle: "B2B Massage",
-
-      category: "Massage",
-
-      duration: "60–90 min",
-
-      image: "/keywordsimages/7.jpg",
-
-      imageAlt:
-        "Customized B2B massage treatment at a professional spa in Thrissur, Kerala",
-
-      seoTitle:
-        "B2B Massage in Thrissur | Customized Massage Experience",
-
-      seoDescription:
-        "Enjoy a customized B2B massage in Thrissur, Kerala, focused on relaxation, comfort and individual treatment preferences in a professional spa environment.",
-
-      keywords: [
-        "B2B massage in Thrissur",
-        "B2B massage Thrissur",
-        "B2B massage Kerala",
-        "customized massage Thrissur",
-        "professional massage Thrissur",
-        "personalized massage Thrissur",
-        "full body massage Thrissur",
-        "relaxation massage Thrissur",
-        "muscle relaxation massage Thrissur",
-        "spa massage in Thrissur",
-        "wellness massage Thrissur",
-        "custom massage treatment Thrissur",
-        "premium massage experience Thrissur",
-        "personalized wellness Thrissur",
-        "massage spa in Thrissur",
-      ],
-
-      shortDescription:
-        "A customized B2B massage experience in Thrissur designed around relaxation, comfort and individual treatment preferences.",
-
-      description:
-        "Our B2B Massage in Thrissur is presented as a customized wellness experience where the treatment can be adapted around personal comfort, preferred pressure and areas of everyday muscular tension. The focus is on attentive professional service and a calm, comfortable spa environment.",
-
-      overview:
-        "The B2B Massage experience begins with a discussion about your preferred treatment approach, comfort level and areas requiring attention. The session is then adjusted around those preferences to create a personalized wellness experience. Our spa is conveniently located at City Tower, near Patturaikkal Junction on Shoranur Road, Thrissur.",
-
-      benefits: [
-        "Customized massage experience",
-        "Personalized pressure preferences",
-        "Focus on areas of everyday muscular tension",
-        "Professional and comfortable spa environment",
-        "Comfort-oriented treatment",
-        "Relaxation-focused experience",
-      ],
-
-      idealFor: [
-        "Guests looking for a customized massage in Thrissur",
-        "People with specific relaxation preferences",
-        "Guests wanting focused personal attention",
-        "First-time visitors looking for a personalized experience",
-        "Guests who prefer adjustable massage pressure",
-        "Anyone looking for a customized wellness treatment",
-      ],
-
-      whatToExpect: [
-        "A pre-treatment discussion about your preferences",
-        "A personalized treatment approach",
-        "Pressure adjusted according to your comfort",
-        "Attention to preferred areas",
-        "A professional and peaceful spa environment",
-        "A relaxation-focused finishing experience",
-      ],
-
-      faq: [
-        {
-          question: "Where can I get a B2B Massage in Thrissur?",
-          answer:
-            "You can enjoy our B2B Massage at City Tower, near Patturaikkal Junction on Shoranur Road, Patturakkal, Thrissur, Kerala – 680022.",
-        },
-        {
-          question: "What is B2B Massage?",
-          answer:
-            "B2B Massage is presented as a customized wellness experience where treatment preferences, pressure and areas requiring attention can be discussed before the session.",
-        },
-        {
-          question: "Can the B2B Massage treatment be customized?",
-          answer:
-            "Yes. Your preferred pressure, comfort level and areas requiring attention can be discussed with the therapist before the treatment.",
-        },
-        {
-          question: "How long is the B2B Massage?",
-          answer:
-            "Our B2B Massage sessions are available for approximately 60 to 90 minutes.",
-        },
-        {
-          question: "Is B2B Massage a professional wellness treatment?",
-          answer:
-            "Yes. The service is presented as a professional, personalized and relaxation-focused wellness experience.",
-        },
-        {
-          question: "Can I request a specific pressure level?",
-          answer:
-            "Yes. You can communicate your preferred pressure level before the session, and the treatment can be adjusted according to your comfort.",
-        },
-        {
-          question: "Where is your spa located in Thrissur?",
-          answer:
-            "Our spa is located at Door No. 36/5860-7, Second Floor, City Tower, near Patturaikkal Junction, Shoranur Road, Patturakkal, Thrissur Corporation, Thrissur, Kerala – 680022.",
-        },
-      ],
-
-      featured: false,
-
-      href: "/services/b2b-massage-thrissur",
-    },
-
     /* =====================================================
-       01 — SWEDISH MASSAGE
+       01 — Swedish Massage
     ===================================================== */
     {
-      id: "swedish-massage-thrissur",
+      id: "swedish-massage-Mahadevapura",
 
       number: "01",
 
-      title: "Swedish Massage",
+      title: "swedish Massage",
 
       shortTitle: "Swedish Massage",
 
@@ -366,42 +35,42 @@ export const servicesData = {
 
       duration: "60–90 min",
 
-      image: "/keywordsimages/1.jpg",
+      image: "/service/14.png",
 
       imageAlt:
-        "Swedish full body massage at a professional spa in Thrissur, Kerala",
+        "Swedish full body massage at a professional spa in Mahadevapura,  Bengaluru",
 
       seoTitle:
-        "Swedish Massage in Thrissur | Full Body Relaxation Massage",
+        "Swedish Massage in Mahadevapura | Full Body Relaxation Massage",
 
       seoDescription:
-        "Enjoy a relaxing Swedish massage in Thrissur, Kerala, designed to ease everyday muscle tension, promote relaxation and leave you feeling refreshed and comfortable.",
+        "Enjoy a relaxing Swedish Massage in Mahadevapura,  Bengaluru, designed to ease everyday muscle tension, promote relaxation and leave you feeling refreshed and comfortable.",
 
       keywords: [
-        "Swedish massage in Thrissur",
-        "Swedish massage Thrissur",
-        "Swedish massage Kerala",
-        "Swedish full body massage Thrissur",
-        "full body massage Thrissur",
-        "relaxing massage Thrissur",
-        "massage spa in Thrissur",
-        "professional massage in Thrissur",
-        "body massage Thrissur",
-        "relaxation massage Thrissur",
-        "stress relief massage Thrissur",
-        "muscle relaxation massage Thrissur",
-        "wellness massage Thrissur",
-        "spa massage in Thrissur",
+        "swedish Massage in Mahadevapura",
+        "swedish Massage Mahadevapura",
+        "swedish Massage  Bengaluru",
+        "Swedish full body massage Mahadevapura",
+        "full body massage Mahadevapura",
+        "relaxing massage Mahadevapura",
+        "massage spa in Mahadevapura",
+        "professional massage in Mahadevapura",
+        "body massage Mahadevapura",
+        "relaxation massage Mahadevapura",
+        "stress relief massage Mahadevapura",
+        "muscle relaxation massage Mahadevapura",
+        "wellness massage Mahadevapura",
+        "spa massage in Mahadevapura",
       ],
 
       shortDescription:
-        "A relaxing full-body Swedish massage in Thrissur, designed to ease everyday muscle tension, encourage relaxation and help you feel refreshed.",
+        "A relaxing full-body Swedish Massage in Mahadevapura, designed to ease everyday muscle tension, encourage relaxation and help you feel refreshed.",
 
       description:
-        "Our Swedish Massage in Thrissur is a classic full-body relaxation treatment using smooth, flowing massage movements and comfortable pressure. It is a suitable choice for guests who want to relax after a busy day, ease everyday muscular tension and enjoy a calm professional spa experience in Thrissur, Kerala.",
+        "Our Swedish Massage in Mahadevapura is a classic full-body relaxation treatment using smooth, flowing massage movements and comfortable pressure. It is a suitable choice for guests who want to relax after a busy day, ease everyday muscular tension and enjoy a calm professional spa experience in Mahadevapura,  Bengaluru.",
 
       overview:
-        "The Swedish Massage experience is designed around comfort, relaxation and personal preference. The treatment uses gentle, flowing massage techniques across the body, with the pressure and pace adjusted according to your comfort. Our spa is conveniently located at City Tower, near Patturaikkal Junction on Shoranur Road, Thrissur.",
+        "The Swedish Massage experience is designed around comfort, relaxation and personal preference. The treatment uses gentle, flowing massage techniques across the body, with the pressure and pace adjusted according to your comfort. Our spa is conveniently located at City Tower, near Patturaikkal Junction on Shoranur Road, Mahadevapura.",
 
       benefits: [
         "Helps ease everyday muscle tension",
@@ -413,7 +82,7 @@ export const servicesData = {
       ],
 
       idealFor: [
-        "Guests looking for a relaxing massage in Thrissur",
+        "Guests looking for a relaxing massage in Mahadevapura",
         "People experiencing everyday muscular tension",
         "First-time massage guests",
         "Guests looking for a classic full-body massage",
@@ -431,9 +100,9 @@ export const servicesData = {
 
       faq: [
         {
-          question: "Where can I get a Swedish Massage in Thrissur?",
+          question: "Where can I get a Swedish Massage in Mahadevapura?",
           answer:
-            "You can enjoy our Swedish Massage in Thrissur at City Tower, near Patturaikkal Junction on Shoranur Road, Patturakkal, Thrissur, Kerala – 680022.",
+            "You can enjoy our Swedish Massage in Mahadevapura at City Tower, near Patturaikkal Junction on Shoranur Road, Patturakkal, Mahadevapura,  Bengaluru – 680022.",
         },
         {
           question: "How long is the Swedish Massage?",
@@ -456,22 +125,22 @@ export const servicesData = {
             "Yes. Swedish Massage is generally performed as a full-body relaxation treatment using smooth and flowing massage movements.",
         },
         {
-          question: "Where is your spa located in Thrissur?",
+          question: "Where is your spa located in Mahadevapura?",
           answer:
-            "Our spa is located at Door No. 36/5860-7, Second Floor, City Tower, near Patturaikkal Junction, Shoranur Road, Patturakkal, Thrissur Corporation, Thrissur, Kerala – 680022.",
+            "Our spa is located at Door No. 36/5860-7, Second Floor, City Tower, near Patturaikkal Junction, Shoranur Road, Patturakkal, Mahadevapura Corporation, Mahadevapura,  Bengaluru – 680022.",
         },
       ],
 
       featured: true,
 
-      href: "/services/swedish-massage-thrissur",
+      href: "/services/swedish-massage-Mahadevapura",
     },
 
     /* =====================================================
        02 — DEEP TISSUE MASSAGE
     ===================================================== */
     {
-      id: "deep-tissue-massage-thrissur",
+      id: "deep-tissue-massage-Mahadevapura",
 
       number: "02",
 
@@ -486,40 +155,40 @@ export const servicesData = {
       image: "/keywordsimages/2.jpg",
 
       imageAlt:
-        "Deep tissue massage treatment at a professional spa in Thrissur, Kerala",
+        "Deep tissue massage treatment at a professional spa in Mahadevapura,  Bengaluru",
 
       seoTitle:
-        "Deep Tissue Massage in Thrissur | Muscle Relaxation",
+        "Deep Tissue Massage in Mahadevapura | Muscle Relaxation",
 
       seoDescription:
-        "Enjoy a professional deep tissue massage in Thrissur, Kerala, designed to focus on areas of muscular tightness, stiffness and everyday physical tension.",
+        "Enjoy a professional deep tissue massage in Mahadevapura,  Bengaluru, designed to focus on areas of muscular tightness, stiffness and everyday physical tension.",
 
       keywords: [
-        "deep tissue massage in Thrissur",
-        "deep tissue massage Thrissur",
-        "deep tissue massage Kerala",
-        "deep tissue massage therapy Thrissur",
-        "deep pressure massage Thrissur",
-        "full body deep tissue massage Thrissur",
-        "muscle tension massage Thrissur",
-        "muscle stiffness massage Thrissur",
-        "therapeutic massage Thrissur",
-        "professional massage Thrissur",
-        "sports recovery massage Thrissur",
-        "body massage Thrissur",
-        "relaxation massage Thrissur",
-        "spa massage in Thrissur",
-        "wellness massage Thrissur",
+        "deep tissue massage in Mahadevapura",
+        "deep tissue massage Mahadevapura",
+        "deep tissue massage  Bengaluru",
+        "deep tissue massage therapy Mahadevapura",
+        "deep pressure massage Mahadevapura",
+        "full body deep tissue massage Mahadevapura",
+        "muscle tension massage Mahadevapura",
+        "muscle stiffness massage Mahadevapura",
+        "therapeutic massage Mahadevapura",
+        "professional massage Mahadevapura",
+        "sports recovery massage Mahadevapura",
+        "body massage Mahadevapura",
+        "relaxation massage Mahadevapura",
+        "spa massage in Mahadevapura",
+        "wellness massage Mahadevapura",
       ],
 
       shortDescription:
-        "A focused deep tissue massage in Thrissur designed to work around areas of muscular tightness, stiffness and everyday physical fatigue.",
+        "A focused deep tissue massage in Mahadevapura designed to work around areas of muscular tightness, stiffness and everyday physical fatigue.",
 
       description:
-        "Our Deep Tissue Massage in Thrissur is a focused massage treatment designed for guests who prefer more targeted pressure around areas of muscular tightness and stiffness. The therapist uses deliberate massage techniques and adjusts the pressure according to your comfort, creating a personalized experience in a calm and professional spa environment.",
+        "Our Deep Tissue Massage in Mahadevapura is a focused massage treatment designed for guests who prefer more targeted pressure around areas of muscular tightness and stiffness. The therapist uses deliberate massage techniques and adjusts the pressure according to your comfort, creating a personalized experience in a calm and professional spa environment.",
 
       overview:
-        "The Deep Tissue Massage experience begins with a conversation about the areas where you feel tension, stiffness or physical fatigue. The therapist then focuses on those areas using appropriate pressure and massage techniques while keeping your comfort in mind. Our spa is conveniently located at City Tower, near Patturaikkal Junction on Shoranur Road, Thrissur.",
+        "The Deep Tissue Massage experience begins with a conversation about the areas where you feel tension, stiffness or physical fatigue. The therapist then focuses on those areas using appropriate pressure and massage techniques while keeping your comfort in mind. Our spa is conveniently located at City Tower, near Patturaikkal Junction on Shoranur Road, Mahadevapura.",
 
       benefits: [
         "Helps ease everyday muscular tightness",
@@ -531,7 +200,7 @@ export const servicesData = {
       ],
 
       idealFor: [
-        "Guests looking for a deep tissue massage in Thrissur",
+        "Guests looking for a deep tissue massage in Mahadevapura",
         "People experiencing everyday muscle tightness",
         "Guests who prefer firmer massage pressure",
         "People with physically demanding daily routines",
@@ -550,9 +219,9 @@ export const servicesData = {
 
       faq: [
         {
-          question: "Where can I get a Deep Tissue Massage in Thrissur?",
+          question: "Where can I get a Deep Tissue Massage in Mahadevapura?",
           answer:
-            "You can enjoy our Deep Tissue Massage in Thrissur at City Tower, near Patturaikkal Junction on Shoranur Road, Patturakkal, Thrissur, Kerala – 680022.",
+            "You can enjoy our Deep Tissue Massage in Mahadevapura at City Tower, near Patturaikkal Junction on Shoranur Road, Patturakkal, Mahadevapura,  Bengaluru – 680022.",
         },
         {
           question: "What is Deep Tissue Massage?",
@@ -575,15 +244,15 @@ export const servicesData = {
             "Yes. You can discuss areas where you experience muscle tightness or stiffness with the therapist before the treatment so the session can be adjusted to your preferences.",
         },
         {
-          question: "Where is your spa located in Thrissur?",
+          question: "Where is your spa located in Mahadevapura?",
           answer:
-            "Our spa is located at Door No. 36/5860-7, Second Floor, City Tower, near Patturaikkal Junction, Shoranur Road, Patturakkal, Thrissur Corporation, Thrissur, Kerala – 680022.",
+            "Our spa is located at Door No. 36/5860-7, Second Floor, City Tower, near Patturaikkal Junction, Shoranur Road, Patturakkal, Mahadevapura Corporation, Mahadevapura,  Bengaluru – 680022.",
         },
       ],
 
       featured: true,
 
-      href: "/services/deep-tissue-massage-thrissur",
+      href: "/services/deep-tissue-massage-Mahadevapura",
     },
 
     /* =====================================================
@@ -591,7 +260,7 @@ export const servicesData = {
     ===================================================== */
 
     {
-      id: "aromatherapy-massage-thrissur",
+      id: "aromatherapy-massage-Mahadevapura",
 
       number: "03",
 
@@ -606,40 +275,40 @@ export const servicesData = {
       image: "/keywordsimages/3.jpg",
 
       imageAlt:
-        "Aromatherapy massage with aromatic oils at a spa in Thrissur, Kerala",
+        "Aromatherapy massage with aromatic oils at a spa in Mahadevapura,  Bengaluru",
 
       seoTitle:
-        "Aromatherapy Massage in Thrissur | Relaxing Spa Treatment",
+        "Aromatherapy Massage in Mahadevapura | Relaxing Spa Treatment",
 
       seoDescription:
-        "Enjoy a calming aromatherapy massage in Thrissur, Kerala, combining relaxing massage movements with aromatic oils for a peaceful spa and wellness experience.",
+        "Enjoy a calming aromatherapy massage in Mahadevapura,  Bengaluru, combining relaxing massage movements with aromatic oils for a peaceful spa and wellness experience.",
 
       keywords: [
-        "aromatherapy massage in Thrissur",
-        "aromatherapy massage Thrissur",
-        "aromatherapy massage Kerala",
-        "aromatherapy spa Thrissur",
-        "aromatherapy massage therapy Thrissur",
-        "aromatic oil massage Thrissur",
-        "essential oil massage Thrissur",
-        "relaxing massage Thrissur",
-        "calming massage Thrissur",
-        "wellness massage Thrissur",
-        "relaxing spa treatment Thrissur",
-        "spa massage in Thrissur",
-        "body relaxation massage Thrissur",
-        "stress relaxation massage Thrissur",
-        "professional massage Thrissur",
+        "aromatherapy massage in Mahadevapura",
+        "aromatherapy massage Mahadevapura",
+        "aromatherapy massage  Bengaluru",
+        "aromatherapy spa Mahadevapura",
+        "aromatherapy massage therapy Mahadevapura",
+        "aromatic oil massage Mahadevapura",
+        "essential oil massage Mahadevapura",
+        "relaxing massage Mahadevapura",
+        "calming massage Mahadevapura",
+        "wellness massage Mahadevapura",
+        "relaxing spa treatment Mahadevapura",
+        "spa massage in Mahadevapura",
+        "body relaxation massage Mahadevapura",
+        "stress relaxation massage Mahadevapura",
+        "professional massage Mahadevapura",
       ],
 
       shortDescription:
-        "A calming aromatherapy massage in Thrissur combining relaxing massage movements with aromatic oils for a peaceful wellness experience.",
+        "A calming aromatherapy massage in Mahadevapura combining relaxing massage movements with aromatic oils for a peaceful wellness experience.",
 
       description:
-        "Our Aromatherapy Massage in Thrissur combines gentle, relaxing massage movements with aromatic oils to create a peaceful sensory experience. It is designed for guests who want to slow down, unwind and enjoy a calming wellness treatment in a comfortable professional spa environment.",
+        "Our Aromatherapy Massage in Mahadevapura combines gentle, relaxing massage movements with aromatic oils to create a peaceful sensory experience. It is designed for guests who want to slow down, unwind and enjoy a calming wellness treatment in a comfortable professional spa environment.",
 
       overview:
-        "The Aromatherapy Massage experience combines a peaceful spa setting, comfortable massage techniques and aromatic oils selected to complement the treatment. The pace and pressure can be adjusted according to your comfort and preferences. Our spa is conveniently located at City Tower, near Patturaikkal Junction on Shoranur Road, Thrissur.",
+        "The Aromatherapy Massage experience combines a peaceful spa setting, comfortable massage techniques and aromatic oils selected to complement the treatment. The pace and pressure can be adjusted according to your comfort and preferences. Our spa is conveniently located at City Tower, near Patturaikkal Junction on Shoranur Road, Mahadevapura.",
 
       benefits: [
         "Encourages deep physical relaxation",
@@ -651,7 +320,7 @@ export const servicesData = {
       ],
 
       idealFor: [
-        "Guests looking for an aromatherapy massage in Thrissur",
+        "Guests looking for an aromatherapy massage in Mahadevapura",
         "People who enjoy aromatic spa experiences",
         "Guests wanting a calming and relaxing massage",
         "First-time aromatherapy massage guests",
@@ -670,9 +339,9 @@ export const servicesData = {
 
       faq: [
         {
-          question: "Where can I get an Aromatherapy Massage in Thrissur?",
+          question: "Where can I get an Aromatherapy Massage in Mahadevapura?",
           answer:
-            "You can enjoy our Aromatherapy Massage in Thrissur at City Tower, near Patturaikkal Junction on Shoranur Road, Patturakkal, Thrissur, Kerala – 680022.",
+            "You can enjoy our Aromatherapy Massage in Mahadevapura at City Tower, near Patturaikkal Junction on Shoranur Road, Patturakkal, Mahadevapura,  Bengaluru – 680022.",
         },
         {
           question: "What is Aromatherapy Massage?",
@@ -695,17 +364,288 @@ export const servicesData = {
             "Yes. Aromatherapy Massage is designed as a relaxing wellness experience for guests who enjoy gentle massage movements and aromatic oils.",
         },
         {
-          question: "Where is your spa located in Thrissur?",
+          question: "Where is your spa located in Mahadevapura?",
           answer:
-            "Our spa is located at Door No. 36/5860-7, Second Floor, City Tower, near Patturaikkal Junction, Shoranur Road, Patturakkal, Thrissur Corporation, Thrissur, Kerala – 680022.",
+            "Our spa is located at Door No. 36/5860-7, Second Floor, City Tower, near Patturaikkal Junction, Shoranur Road, Patturakkal, Mahadevapura Corporation, Mahadevapura,  Bengaluru – 680022.",
         },
       ],
 
       featured: true,
 
-      href: "/services/aromatherapy-massage-thrissur",
+      href: "/services/aromatherapy-massage-Mahadevapura",
+    },
+    
+
+    {
+  id: "Jacuzzi-massage-Mahadevapura",
+
+  number: "05",
+
+  title: "Jacuzzi Massage",
+
+  shortTitle: "Jacuzzi Massage",
+
+  category: "Massage",
+
+  duration: "60–90 min",
+
+  image: "/service/27.png",
+
+  imageAlt:
+    "Relaxing Jacuzzi Massage treatment at a professional spa in Mahadevapura, Bengaluru",
+
+  seoTitle:
+    "Jacuzzi Massage in Mahadevapura | Relaxation & Wellness",
+
+  seoDescription:
+    "Experience a relaxing Jacuzzi Massage in Mahadevapura, Bengaluru, using gentle strokes and flowing techniques designed to promote relaxation, comfort and overall wellness.",
+
+  keywords: [
+    "Jacuzzi Massage in Mahadevapura",
+    "Jacuzzi Massage Bengaluru",
+    "Jacuzzi Massage near me",
+    "Jacuzzi Massage Mahadevapura",
+    "relaxation massage Mahadevapura",
+    "body massage Mahadevapura",
+    "full body massage Mahadevapura",
+    "massage spa Mahadevapura",
+    "massage therapy Mahadevapura",
+    "wellness massage Bengaluru",
+    "professional Jacuzzi Massage",
+    "relaxation spa Mahadevapura",
+    "body massage spa in Mahadevapura",
+    "best massage spa Mahadevapura",
+    "spa and massage services",
+  ],
+
+  shortDescription:
+    "A calming Jacuzzi Massage in Mahadevapura using gentle strokes and flowing techniques to promote relaxation, comfort and overall wellness.",
+
+  description:
+    "Our Jacuzzi Massage in Mahadevapura is a relaxing wellness experience designed to help you unwind and enjoy a peaceful break from your daily routine. Gentle, flowing massage techniques are adjusted according to your comfort and preferences in a calm and professional spa environment.",
+
+  overview:
+    "Jacuzzi Massage is a popular relaxation-focused massage style using gentle strokes and flowing techniques. The treatment is designed around comfort and relaxation, making it suitable for guests looking for a peaceful body massage experience in Mahadevapura, Bengaluru. Ella spa is conveniently located on Whitefield Main Road, opposite Phoenix Mall, Mahadevapura.",
+
+  benefits: [
+    "Promotes relaxation",
+    "Helps reduce everyday stress",
+    "Supports comfortable muscle relaxation",
+    "Encourages a calm and refreshed feeling",
+    "Provides a soothing full-body experience",
+    "Suitable for regular wellness routines",
+  ],
+
+  idealFor: [
+    "Guests looking for Jacuzzi Massage in Mahadevapura",
+    "People seeking a relaxing body massage",
+    "Guests wanting to unwind after a busy day",
+    "People interested in relaxation-focused treatments",
+    "Guests looking for a peaceful spa experience",
+    "Anyone seeking a comfortable wellness session",
+  ],
+
+  whatToExpect: [
+    "A discussion about your comfort and preferences",
+    "Gentle and flowing massage movements",
+    "Relaxation-focused techniques",
+    "Professional and comfortable treatment environment",
+    "Pressure adjusted according to your comfort",
+    "A calm and refreshing finishing experience",
+  ],
+
+  faq: [
+    {
+      question:
+        "Where can I get a Jacuzzi Massage in Mahadevapura?",
+
+      answer:
+        "You can enjoy our Jacuzzi Massage at Ella spa, located at 2nd Floor, 106/7, Whitefield Main Road, opposite Phoenix Mall, Mahadevapura, Bengaluru.",
     },
 
+    {
+      question:
+        "What is Jacuzzi Massage?",
+
+      answer:
+        "Jacuzzi Massage is a relaxation-focused massage style that uses gentle, flowing strokes and techniques designed to create a comfortable and calming wellness experience.",
+    },
+
+    {
+      question:
+        "Is Jacuzzi Massage suitable for relaxation?",
+
+      answer:
+        "Yes. Jacuzzi Massage is commonly chosen by guests looking for a gentle and relaxing wellness experience.",
+    },
+
+    {
+      question:
+        "How long is the Jacuzzi Massage session?",
+
+      answer:
+        "Jacuzzi Massage sessions are available for approximately 60 to 90 minutes, depending on your preferred treatment duration.",
+    },
+
+    {
+      question:
+        "Can the massage pressure be adjusted?",
+
+      answer:
+        "Yes. The treatment can be adjusted according to your comfort level and personal preferences.",
+    },
+
+    {
+      question:
+        "Where is Ella spa located in Mahadevapura?",
+
+      answer:
+        "Ella spa is located at 2nd Floor, 106/7, Whitefield Main Road, opposite Phoenix Mall, Mahadevapura, Bengaluru.",
+    },
+  ],
+
+  featured: true,
+
+  href: "/services/jacuzzi-massage-Mahadevapura",
+},
+
+
+/* =====================================================
+   hot oil massage
+===================================================== */
+
+{
+  id: "hot-oil-massage-Mahadevapura",
+
+  number: "06",
+
+  title: "Hot Oil Massage",
+
+  shortTitle: "Hot Oil Massage",
+
+  category: "Massage",
+
+  duration: "60–90 min",
+
+  image: "/service/24.png",
+
+  imageAlt:
+    "Hot oil massage treatment at a professional spa in Mahadevapura, Bengaluru",
+
+  seoTitle:
+    "Hot Oil Massage in Mahadevapura | Relaxation & Body Care",
+
+  seoDescription:
+    "Experience a focused Hot Oil Massage in Mahadevapura, Bengaluru, designed to provide deeper relaxation and targeted attention to areas of everyday muscle tension.",
+
+  keywords: [
+    "Hot Oil Massage in Mahadevapura",
+    "hot oil massage Bengaluru",
+    "hot oil massage near me",
+    "hot oil massage Mahadevapura",
+    "hot oil massage therapy",
+    "body massage Mahadevapura",
+    "full body massage Mahadevapura",
+    "massage spa Mahadevapura",
+    "massage center Mahadevapura",
+    "massage therapy near me",
+    "professional deep tissue massage",
+    "relaxation spa Mahadevapura",
+    "best massage spa Mahadevapura",
+    "body massage spa in Mahadevapura",
+    "spa and massage services",
+  ],
+
+  shortDescription:
+    "A focused hot oil massage in Mahadevapura designed to provide deeper relaxation and targeted attention to areas of everyday muscle tension.",
+
+  description:
+    "Our Hot Oil Massage in Mahadevapura provides a focused wellness experience for guests who prefer deeper pressure and targeted massage techniques. The treatment is designed around individual comfort and can help create a relaxed, refreshed feeling in a professional spa environment.",
+
+  overview:
+    "Hot Oil Massage uses focused massage techniques and firmer pressure to provide a more targeted wellness experience. Pressure and techniques are adjusted according to your comfort and preferences. Ella spa is conveniently located on Whitefield Main Road, opposite Phoenix Mall, Mahadevapura, Bengaluru.",
+
+  benefits: [
+    "Promotes deeper relaxation",
+    "Supports comfortable muscle relaxation",
+    "Helps ease everyday muscular tightness",
+    "Provides targeted body care",
+    "Encourages a refreshed feeling",
+    "Supports overall wellness",
+  ],
+
+  idealFor: [
+    "Guests looking for Hot Oil Massage in Mahadevapura",
+    "People who prefer firmer massage pressure",
+    "Guests seeking targeted body relaxation",
+    "Active individuals looking for a focused massage",
+    "People experiencing everyday muscular tightness",
+    "Guests looking for a professional massage spa",
+  ],
+
+  whatToExpect: [
+    "A discussion about your comfort and preferences",
+    "Focused massage techniques",
+    "Targeted attention to areas of tension",
+    "Pressure adjusted according to your comfort",
+    "Professional and comfortable treatment environment",
+    "A relaxed and refreshing finishing experience",
+  ],
+
+  faq: [
+    {
+      question:
+        "Where can I get Hot Oil Massage in Mahadevapura?",
+
+      answer:
+        "You can enjoy our Hot Oil Massage at Ella spa, located at 2nd Floor, 106/7, Whitefield Main Road, opposite Phoenix Mall, Mahadevapura, Bengaluru.",
+    },
+
+    {
+      question:
+        "What is Hot Oil Massage?",
+
+      answer:
+        "Hot Oil Massage is a therapeutic massage technique that uses heated oils to provide deep relaxation and targeted muscle relief.",
+    },
+
+    {
+      question:
+        "Is Hot Oil Massage suitable for people who prefer firm pressure?",
+
+      answer:
+        "Yes. Hot Oil Massage can be suitable for guests who prefer a more focused and firmer massage experience, with pressure adjusted according to comfort.",
+    },
+
+    {
+      question:
+        "How long is a Hot Oil Massage session?",
+
+      answer:
+        "Hot Oil   Massage sessions are available for approximately 60 to 90 minutes, depending on your preferred treatment duration.",
+    },
+
+    {
+      question:
+        "Can the pressure be adjusted during the treatment?",
+
+      answer:
+        "Yes. Pressure and massage techniques can be adjusted according to your comfort and preferences.",
+    },
+
+    {
+      question:
+        "Where is Ella spa located?",
+
+      answer:
+        "Ella spa is located at 2nd Floor, 106/7, Whitefield Main Road, opposite Phoenix Mall, Mahadevapura, Bengaluru.",
+    },
+  ],
+
+  featured: true,
+
+  href: "/services/hot-oil-massage-Mahadevapura",
+},
 
     /* =====================================================
        11 — SPECIALTY MASSAGE
@@ -718,7 +658,7 @@ export const servicesData = {
     ===================================================== */
 
     {
-      id: "thai-massage-thrissur",
+      id: "thai-massage-Mahadevapura",
 
       number: "04",
 
@@ -733,40 +673,40 @@ export const servicesData = {
       image: "/keywordsimages/6.jpg",
 
       imageAlt:
-        "Traditional Thai massage treatment at a professional spa in Thrissur, Kerala",
+        "Traditional Thai massage treatment at a professional spa in Mahadevapura,  Bengaluru",
 
       seoTitle:
-        "Thai Massage in Thrissur | Traditional Stretching & Relaxation",
+        "Thai Massage in Mahadevapura | Traditional Stretching & Relaxation",
 
       seoDescription:
-        "Experience a Thai massage in Thrissur, Kerala, combining assisted stretching and focused pressure techniques to support flexibility, comfortable movement and relaxation.",
+        "Experience a Thai massage in Mahadevapura,  Bengaluru, combining assisted stretching and focused pressure techniques to support flexibility, comfortable movement and relaxation.",
 
       keywords: [
-        "Thai massage in Thrissur",
-        "Thai massage Thrissur",
-        "Thai massage Kerala",
-        "traditional Thai massage Thrissur",
-        "Thai massage therapy Thrissur",
-        "Thai body massage Thrissur",
-        "stretching massage Thrissur",
-        "assisted stretching massage Thrissur",
-        "flexibility massage Thrissur",
-        "full body Thai massage Thrissur",
-        "wellness massage Thrissur",
-        "spa massage in Thrissur",
-        "professional Thai massage Thrissur",
-        "relaxation massage Thrissur",
-        "body massage Thrissur",
+        "Thai massage in Mahadevapura",
+        "Thai massage Mahadevapura",
+        "Thai massage  Bengaluru",
+        "traditional Thai massage Mahadevapura",
+        "Thai massage therapy Mahadevapura",
+        "Thai body massage Mahadevapura",
+        "stretching massage Mahadevapura",
+        "assisted stretching massage Mahadevapura",
+        "flexibility massage Mahadevapura",
+        "full body Thai massage Mahadevapura",
+        "wellness massage Mahadevapura",
+        "spa massage in Mahadevapura",
+        "professional Thai massage Mahadevapura",
+        "relaxation massage Mahadevapura",
+        "body massage Mahadevapura",
       ],
 
       shortDescription:
-        "A traditional-inspired Thai massage in Thrissur combining assisted stretching and focused pressure techniques to promote flexibility and relaxation.",
+        "A traditional-inspired Thai massage in Mahadevapura combining assisted stretching and focused pressure techniques to promote flexibility and relaxation.",
 
       description:
-        "Our Thai Massage in Thrissur is a traditional-inspired wellness experience that combines assisted stretching, focused pressure and deliberate body movements. It is ideal for guests who enjoy a more active style of massage while still experiencing relaxation in a calm and professional spa environment.",
+        "Our Thai Massage in Mahadevapura is a traditional-inspired wellness experience that combines assisted stretching, focused pressure and deliberate body movements. It is ideal for guests who enjoy a more active style of massage while still experiencing relaxation in a calm and professional spa environment.",
 
       overview:
-        "Thai Massage combines stretching-based techniques and focused pressure to create a unique wellness experience. Movements and pressure are adjusted according to your comfort, flexibility and personal preferences. Our spa is conveniently located at City Tower, near Patturaikkal Junction on Shoranur Road, Thrissur.",
+        "Thai Massage combines stretching-based techniques and focused pressure to create a unique wellness experience. Movements and pressure are adjusted according to your comfort, flexibility and personal preferences. Our spa is conveniently located at City Tower, near Patturaikkal Junction on Shoranur Road, Mahadevapura.",
 
       benefits: [
         "Encourages flexibility and mobility",
@@ -778,7 +718,7 @@ export const servicesData = {
       ],
 
       idealFor: [
-        "Guests looking for Thai Massage in Thrissur",
+        "Guests looking for Thai Massage in Mahadevapura",
         "People who enjoy stretching-based treatments",
         "Active individuals",
         "Guests wanting a different massage experience",
@@ -797,9 +737,9 @@ export const servicesData = {
 
       faq: [
         {
-          question: "Where can I get a Thai Massage in Thrissur?",
+          question: "Where can I get a Thai Massage in Mahadevapura?",
           answer:
-            "You can enjoy our Thai Massage at City Tower, near Patturaikkal Junction on Shoranur Road, Patturakkal, Thrissur, Kerala – 680022.",
+            "You can enjoy our Thai Massage at City Tower, near Patturaikkal Junction on Shoranur Road, Patturakkal, Mahadevapura,  Bengaluru – 680022.",
         },
         {
           question: "What is Thai Massage?",
@@ -822,15 +762,15 @@ export const servicesData = {
             "Yes. The therapist can adjust both the stretching movements and pressure according to your comfort and flexibility.",
         },
         {
-          question: "Where is your spa located in Thrissur?",
+          question: "Where is your spa located in Mahadevapura?",
           answer:
-            "Our spa is located at Door No. 36/5860-7, Second Floor, City Tower, near Patturaikkal Junction, Shoranur Road, Patturakkal, Thrissur Corporation, Thrissur, Kerala – 680022.",
+            "Our spa is located at Door No. 36/5860-7, Second Floor, City Tower, near Patturaikkal Junction, Shoranur Road, Patturakkal, Mahadevapura Corporation, Mahadevapura,  Bengaluru – 680022.",
         },
       ],
 
       featured: true,
 
-      href: "/services/thai-massage-thrissur",
+      href: "/services/thai-massage-Mahadevapura",
     },
 
     /* =====================================================
@@ -838,7 +778,7 @@ export const servicesData = {
     ===================================================== */
 
     {
-      id: "couples-massage-thrissur",
+      id: "couples-massage-Mahadevapura",
 
       number: "05",
 
@@ -850,43 +790,43 @@ export const servicesData = {
 
       duration: "60–90 min",
 
-      image: "/keywordsimages/9.jpg",
+      image: "/service/31.png",
 
       imageAlt:
-        "Couples enjoying a relaxing massage experience at a spa in Thrissur, Kerala",
+        "Couples enjoying a relaxing massage experience at a spa in Mahadevapura,  Bengaluru",
 
       seoTitle:
-        "Couples Massage in Thrissur | Relaxing Spa Experience for Two",
+        "Couples Massage in Mahadevapura | Relaxing Spa Experience for Two",
 
       seoDescription:
-        "Enjoy a relaxing couples massage in Thrissur, Kerala, designed for two people to unwind together and enjoy a peaceful spa experience in a comfortable setting.",
+        "Enjoy a relaxing couples massage in Mahadevapura,  Bengaluru, designed for two people to unwind together and enjoy a peaceful spa experience in a comfortable setting.",
 
       keywords: [
-        "couples massage in Thrissur",
-        "couples massage Thrissur",
-        "couples spa in Thrissur",
-        "spa for couples Thrissur",
-        "couples massage Kerala",
-        "massage for two Thrissur",
-        "relaxing couples massage Thrissur",
-        "couples spa experience Thrissur",
-        "romantic spa experience Thrissur",
-        "private couples spa Thrissur",
-        "couples wellness Thrissur",
-        "spa experience for two Thrissur",
-        "couples relaxation Thrissur",
+        "couples massage in Mahadevapura",
+        "couples massage Mahadevapura",
+        "couples spa in Mahadevapura",
+        "spa for couples Mahadevapura",
+        "couples massage  Bengaluru",
+        "massage for two Mahadevapura",
+        "relaxing couples massage Mahadevapura",
+        "couples spa experience Mahadevapura",
+        "romantic spa experience Mahadevapura",
+        "private couples spa Mahadevapura",
+        "couples wellness Mahadevapura",
+        "spa experience for two Mahadevapura",
+        "couples relaxation Mahadevapura",
         "couples massage near Patturaikkal",
-        "wellness experience Thrissur",
+        "wellness experience Mahadevapura",
       ],
 
       shortDescription:
-        "A shared spa experience for two in Thrissur, combining relaxation, comfort and quality time together in a peaceful environment.",
+        "A shared spa experience for two in Mahadevapura, combining relaxation, comfort and quality time together in a peaceful environment.",
 
       description:
-        "Our Couples Massage in Thrissur is a relaxing wellness experience designed for two people to unwind together. It provides a comfortable and peaceful setting where couples can enjoy quality time away from their everyday routines while receiving a relaxing massage experience.",
+        "Our Couples Massage in Mahadevapura is a relaxing wellness experience designed for two people to unwind together. It provides a comfortable and peaceful setting where couples can enjoy quality time away from their everyday routines while receiving a relaxing massage experience.",
 
       overview:
-        "The Couples Massage experience allows two guests to enjoy a shared spa session in a calm and comfortable environment. Treatment preferences, pressure levels and comfort requirements can be discussed with the spa team before the session. Our spa is conveniently located at City Tower, near Patturaikkal Junction on Shoranur Road, Thrissur.",
+        "The Couples Massage experience allows two guests to enjoy a shared spa session in a calm and comfortable environment. Treatment preferences, pressure levels and comfort requirements can be discussed with the spa team before the session. Our spa is conveniently located at City Tower, near Patturaikkal Junction on Shoranur Road, Mahadevapura.",
 
       benefits: [
         "Enjoy a shared wellness experience",
@@ -898,7 +838,7 @@ export const servicesData = {
       ],
 
       idealFor: [
-        "Couples looking for a spa experience in Thrissur",
+        "Couples looking for a spa experience in Mahadevapura",
         "Partners wanting to relax together",
         "Couples celebrating an anniversary",
         "Birthday and special occasion experiences",
@@ -917,9 +857,9 @@ export const servicesData = {
 
       faq: [
         {
-          question: "Where can I get a Couples Massage in Thrissur?",
+          question: "Where can I get a Couples Massage in Mahadevapura?",
           answer:
-            "You can enjoy our Couples Massage at City Tower, near Patturaikkal Junction on Shoranur Road, Patturakkal, Thrissur, Kerala – 680022.",
+            "You can enjoy our Couples Massage at City Tower, near Patturaikkal Junction on Shoranur Road, Patturakkal, Mahadevapura,  Bengaluru – 680022.",
         },
         {
           question: "What is a Couples Massage?",
@@ -947,22 +887,22 @@ export const servicesData = {
             "Yes. A Couples Massage can be a relaxing wellness experience for anniversaries, birthdays, celebrations or simply spending quality time together.",
         },
         {
-          question: "Where is your spa located in Thrissur?",
+          question: "Where is your spa located in Mahadevapura?",
           answer:
-            "Our spa is located at Door No. 36/5860-7, Second Floor, City Tower, near Patturaikkal Junction, Shoranur Road, Patturakkal, Thrissur Corporation, Thrissur, Kerala – 680022.",
+            "Our spa is located at Door No. 36/5860-7, Second Floor, City Tower, near Patturaikkal Junction, Shoranur Road, Patturakkal, Mahadevapura Corporation, Mahadevapura,  Bengaluru – 680022.",
         },
       ],
 
       featured: false,
 
-      href: "/services/couples-massage-thrissur",
+      href: "/services/couples-massage-Mahadevapura",
     },
     /* =====================================================
        07 — FOOT REFLEXOLOGY
     ===================================================== */
 
     {
-      id: "foot-reflexology-thrissur",
+      id: "foot-reflexology-Mahadevapura",
 
       number: "07",
 
@@ -977,40 +917,40 @@ export const servicesData = {
       image: "/keywordsimages/10.jpg",
 
       imageAlt:
-        "Foot reflexology treatment at a professional wellness spa in Thrissur, Kerala",
+        "Foot reflexology treatment at a professional wellness spa in Mahadevapura,  Bengaluru",
 
       seoTitle:
-        "Foot Reflexology in Thrissur | Relaxing Foot Massage",
+        "Foot Reflexology in Mahadevapura | Relaxing Foot Massage",
 
       seoDescription:
-        "Enjoy a relaxing foot reflexology treatment in Thrissur, Kerala, using focused pressure techniques to help tired feet feel refreshed and relaxed.",
+        "Enjoy a relaxing foot reflexology treatment in Mahadevapura,  Bengaluru, using focused pressure techniques to help tired feet feel refreshed and relaxed.",
 
       keywords: [
-        "foot reflexology in Thrissur",
-        "foot reflexology Thrissur",
-        "foot reflexology Kerala",
-        "reflexology massage Thrissur",
-        "foot massage Thrissur",
-        "foot massage in Thrissur",
-        "foot reflexology therapy Thrissur",
-        "relaxing foot massage Thrissur",
-        "tired feet massage Thrissur",
-        "foot wellness treatment Thrissur",
-        "reflexology spa Thrissur",
-        "pressure point foot massage Thrissur",
-        "foot relaxation Thrissur",
-        "wellness spa in Thrissur",
-        "relaxation treatment Thrissur",
+        "foot reflexology in Mahadevapura",
+        "foot reflexology Mahadevapura",
+        "foot reflexology  Bengaluru",
+        "reflexology massage Mahadevapura",
+        "foot massage Mahadevapura",
+        "foot massage in Mahadevapura",
+        "foot reflexology therapy Mahadevapura",
+        "relaxing foot massage Mahadevapura",
+        "tired feet massage Mahadevapura",
+        "foot wellness treatment Mahadevapura",
+        "reflexology spa Mahadevapura",
+        "pressure point foot massage Mahadevapura",
+        "foot relaxation Mahadevapura",
+        "wellness spa in Mahadevapura",
+        "relaxation treatment Mahadevapura",
       ],
 
       shortDescription:
-        "A relaxing foot reflexology treatment in Thrissur designed for tired feet, everyday relaxation and comfortable movement.",
+        "A relaxing foot reflexology treatment in Mahadevapura designed for tired feet, everyday relaxation and comfortable movement.",
 
       description:
-        "Our Foot Reflexology in Thrissur provides a focused wellness experience using controlled pressure techniques across the feet. It is a convenient choice after a long day, extensive walking or periods of standing when your feet need dedicated relaxation and care.",
+        "Our Foot Reflexology in Mahadevapura provides a focused wellness experience using controlled pressure techniques across the feet. It is a convenient choice after a long day, extensive walking or periods of standing when your feet need dedicated relaxation and care.",
 
       overview:
-        "The treatment concentrates on the feet and uses controlled pressure techniques to create a comfortable and restorative wellness experience. It can be enjoyed as a standalone treatment or as part of a longer relaxation routine. Our spa is conveniently located at City Tower, near Patturaikkal Junction on Shoranur Road, Thrissur.",
+        "The treatment concentrates on the feet and uses controlled pressure techniques to create a comfortable and restorative wellness experience. It can be enjoyed as a standalone treatment or as part of a longer relaxation routine. Our spa is conveniently located at City Tower, near Patturaikkal Junction on Shoranur Road, Mahadevapura.",
 
       benefits: [
         "Helps relax tired feet",
@@ -1022,7 +962,7 @@ export const servicesData = {
       ],
 
       idealFor: [
-        "Guests looking for foot reflexology in Thrissur",
+        "Guests looking for foot reflexology in Mahadevapura",
         "People who spend long hours standing",
         "Guests who walk frequently",
         "Travelers with tired feet",
@@ -1041,9 +981,9 @@ export const servicesData = {
 
       faq: [
         {
-          question: "Where can I get Foot Reflexology in Thrissur?",
+          question: "Where can I get Foot Reflexology in Mahadevapura?",
           answer:
-            "You can enjoy our Foot Reflexology treatment at City Tower, near Patturaikkal Junction on Shoranur Road, Patturakkal, Thrissur, Kerala – 680022.",
+            "You can enjoy our Foot Reflexology treatment at City Tower, near Patturaikkal Junction on Shoranur Road, Patturakkal, Mahadevapura,  Bengaluru – 680022.",
         },
         {
           question: "What is Foot Reflexology?",
@@ -1071,15 +1011,15 @@ export const servicesData = {
             "Yes. You can discuss your preferred pressure and comfort level with the therapist before the treatment begins.",
         },
         {
-          question: "Where is your spa located in Thrissur?",
+          question: "Where is your spa located in Mahadevapura?",
           answer:
-            "Our spa is located at Door No. 36/5860-7, Second Floor, City Tower, near Patturaikkal Junction, Shoranur Road, Patturakkal, Thrissur Corporation, Thrissur, Kerala – 680022.",
+            "Our spa is located at Door No. 36/5860-7, Second Floor, City Tower, near Patturaikkal Junction, Shoranur Road, Patturakkal, Mahadevapura Corporation, Mahadevapura,  Bengaluru – 680022.",
         },
       ],
 
       featured: false,
 
-      href: "/services/foot-reflexology-thrissur",
+      href: "/services/foot-reflexology-Mahadevapura",
     },
 
     /* =====================================================
@@ -1087,11 +1027,11 @@ export const servicesData = {
     ===================================================== */
 
     {
-      id: "female-to-male-massage-thrissur",
+      id: "female-to-male-massage-Mahadevapura",
 
       number: "08",
 
-      title: "Female to Male Massage ",
+      title: "Female to Male ",
 
       shortTitle: "Female to Male Massage",
 
@@ -1102,40 +1042,40 @@ export const servicesData = {
       image: "/service/3.png",
 
       imageAlt:
-        "Professional female to male massage service in Thrissur, Kerala",
+        "Professional female to male massage service in Mahadevapura,  Bengaluru",
 
       seoTitle:
-        "Female to Male Massage in Thrissur | Professional Massage",
+        "Female to Male Massage in Mahadevapura | Professional Massage",
 
       seoDescription:
-        "Enjoy a professional female to male massage in Thrissur, Kerala, with a comfortable spa environment and a personalized approach to relaxation and wellness.",
+        "Enjoy a professional female to male massage in Mahadevapura,  Bengaluru, with a comfortable spa environment and a personalized approach to relaxation and wellness.",
 
       keywords: [
-        "female to male massage in Thrissur",
-        "female to male massage Thrissur",
-        "female to male massage Kerala",
-        "female therapist male massage Thrissur",
-        "female therapist massage for men Thrissur",
-        "female massage therapist Thrissur",
-        "massage for men Thrissur",
-        "professional massage for men Thrissur",
-        "male massage service Thrissur",
-        "personalized massage Thrissur",
-        "relaxation massage Thrissur",
-        "premium massage Thrissur",
-        "specialty massage Thrissur",
-        "wellness massage Thrissur",
-        "spa massage in Thrissur",
+        "female to male massage in Mahadevapura",
+        "female to male massage Mahadevapura",
+        "female to male massage  Bengaluru",
+        "female therapist male massage Mahadevapura",
+        "female therapist massage for men Mahadevapura",
+        "female massage therapist Mahadevapura",
+        "massage for men Mahadevapura",
+        "professional massage for men Mahadevapura",
+        "male massage service Mahadevapura",
+        "personalized massage Mahadevapura",
+        "relaxation massage Mahadevapura",
+        "premium massage Mahadevapura",
+        "specialty massage Mahadevapura",
+        "wellness massage Mahadevapura",
+        "spa massage in Mahadevapura",
       ],
 
       shortDescription:
-        "A professional female to male massage experience in Thrissur designed around relaxation, comfort, privacy and personalized service.",
+        "A professional female to male massage experience in Mahadevapura designed around relaxation, comfort, privacy and personalized service.",
 
       description:
-        "Our Female to Male Massage in Thrissur provides a professional and comfortable massage experience for male guests who prefer a female therapist. The session is designed around relaxation, personal comfort and individual preferences, with treatment expectations and pressure levels discussed before the massage.",
+        "Our Female to Male Massage in Mahadevapura provides a professional and comfortable massage experience for male guests who prefer a female therapist. The session is designed around relaxation, personal comfort and individual preferences, with treatment expectations and pressure levels discussed before the massage.",
 
       overview:
-        "The experience begins with a discussion about your preferred massage approach, pressure and comfort level. The treatment is then provided in a calm and professional spa environment with attention to individual preferences. Our spa is conveniently located at City Tower, near Patturaikkal Junction on Shoranur Road, Thrissur.",
+        "The experience begins with a discussion about your preferred massage approach, pressure and comfort level. The treatment is then provided in a calm and professional spa environment with attention to individual preferences. Our spa is conveniently located at City Tower, near Patturaikkal Junction on Shoranur Road, Mahadevapura.",
 
       benefits: [
         "Professional female therapist experience",
@@ -1147,7 +1087,7 @@ export const servicesData = {
       ],
 
       idealFor: [
-        "Men looking for a female therapist massage in Thrissur",
+        "Men looking for a female therapist massage in Mahadevapura",
         "Guests wanting a personalized massage experience",
         "Male guests looking for professional relaxation",
         "Guests who prefer individual attention",
@@ -1166,9 +1106,9 @@ export const servicesData = {
 
       faq: [
         {
-          question: "Where can I get a Female to Male Massage in Thrissur?",
+          question: "Where can I get a Female to Male Massage in Mahadevapura?",
           answer:
-            "You can book our Female to Male Massage service at City Tower, near Patturaikkal Junction on Shoranur Road, Patturakkal, Thrissur, Kerala – 680022.",
+            "You can book our Female to Male Massage service at City Tower, near Patturaikkal Junction on Shoranur Road, Patturakkal, Mahadevapura,  Bengaluru – 680022.",
         },
         {
           question: "What is Female to Male Massage?",
@@ -1196,15 +1136,15 @@ export const servicesData = {
             "Yes. This service is specifically designed for male guests who prefer to receive a professional massage from a female therapist.",
         },
         {
-          question: "Where is your spa located in Thrissur?",
+          question: "Where is your spa located in Mahadevapura?",
           answer:
-            "Our spa is located at Door No. 36/5860-7, Second Floor, City Tower, near Patturaikkal Junction, Shoranur Road, Patturakkal, Thrissur Corporation, Thrissur, Kerala – 680022.",
+            "Our spa is located at Door No. 36/5860-7, Second Floor, City Tower, near Patturaikkal Junction, Shoranur Road, Patturakkal, Mahadevapura Corporation, Mahadevapura,  Bengaluru – 680022.",
         },
       ],
 
       featured: true,
 
-      href: "/services/female-to-male-massage-thrissur",
+      href: "/services/female-to-male-massage-Mahadevapura",
     },
 
     /* =====================================================
@@ -1213,136 +1153,10 @@ export const servicesData = {
 
 
 
-    /* =====================================================
-       10 — Nuru Massage EXPERIENCE
-       Neutral replacement content
-    ===================================================== */
 
 
 
-    /* =====================================================
-       12 — Happy Ending Massage
-       Neutral replacement content
-    ===================================================== */
-    {
-      id: "Happy Ending Massage-thrissur",
 
-      number: "12",
-
-      title: "Happy Ending Massage",
-
-      shortTitle: "Happy Ending Massage",
-
-      category: "Specialty",
-
-      duration: "60–90 min",
-
-      image: "/service/35.png",
-
-      imageAlt:
-        "Happy Ending Massage spa experience in Thrissur, Kerala",
-
-      seoTitle:
-        "Happy Ending Massage in Thrissur | Premium Spa Treatment",
-
-      seoDescription:
-        "Enjoy a Happy Ending Massage in Thrissur, Kerala, focused on relaxation, comfort, privacy and personalized professional spa service.",
-
-      keywords: [
-        "Happy Ending Massage in Thrissur",
-        "Happy Ending Massage Thrissur",
-        "private spa treatment Thrissur",
-        "premium wellness Thrissur",
-        "personalized spa experience Thrissur",
-        "Nuru Massage Thrissur",
-        "relaxation treatment Thrissur",
-        "private massage experience Thrissur",
-        "professional spa treatment Thrissur",
-        "luxury wellness experience Thrissur",
-        "private relaxation spa Thrissur",
-        "premium spa experience Thrissur",
-        "wellness spa in Thrissur",
-        "spa treatment in Thrissur",
-        "private wellness treatment Thrissur",
-      ],
-
-      shortDescription:
-        "A private Nuru Massage experience in Thrissur focused on comfort, relaxation, privacy and personalized professional service.",
-
-      description:
-        "Our Happy Ending Massage in Thrissur is designed for guests who value privacy, personal comfort and attentive service. The experience takes place in a peaceful spa environment, with treatment preferences and comfort expectations discussed with the spa team before the session.",
-
-      overview:
-        "The experience is designed around privacy and personalized attention. Guests can discuss their preferred treatment approach, pressure and comfort level before the session, allowing the experience to be tailored to their individual preferences. Our spa is conveniently located at City Tower, near Patturaikkal Junction on Shoranur Road, Thrissur.",
-
-      benefits: [
-        "Private and comfortable treatment environment",
-        "Personalized wellness experience",
-        "Comfort-focused professional service",
-        "Relaxation-oriented atmosphere",
-        "Peaceful and discreet spa setting",
-        "Individual attention throughout the session",
-      ],
-
-      idealFor: [
-        "Guests looking for a Happy Ending Massage in Thrissur",
-        "Guests who prefer personalized service",
-        "Visitors seeking a Nuru Massage experience",
-        "Guests who value privacy and comfort",
-        "People wanting dedicated relaxation time",
-      ],
-
-      whatToExpect: [
-        "A private and peaceful spa environment",
-        "A pre-treatment discussion about preferences",
-        "A personalized treatment approach",
-        "Comfort-adjusted pressure and service",
-        "Professional and attentive spa care",
-        "A peaceful wellness experience",
-      ],
-
-      faq: [
-        {
-          question: "Where can I enjoy a Happy Ending Massage in Thrissur?",
-          answer:
-            "You can enjoy our Happy Ending Massage at City Tower, near Patturaikkal Junction on Shoranur Road, Patturakkal, Thrissur, Kerala – 680022.",
-        },
-        {
-          question: "What is a Happy Ending Massage?",
-          answer:
-            "It is a personalized spa experience focused on privacy, comfort, relaxation and professional wellness service in a peaceful environment.",
-        },
-        {
-          question: "Is this a Happy Ending Massage?",
-          answer:
-            "Yes. The experience is designed around privacy, personal comfort and attentive professional spa service.",
-        },
-        {
-          question: "Can I discuss my treatment preferences?",
-          answer:
-            "Yes. Guests can discuss their preferred treatment approach, pressure and comfort expectations with the spa team before the session.",
-        },
-        {
-          question: "How long is the Happy Ending Massage?",
-          answer:
-            "Sessions are available for approximately 60 to 90 minutes, depending on the selected experience.",
-        },
-        {
-          question: "Is the experience suitable for guests who value privacy?",
-          answer:
-            "Yes. The experience is designed for guests who prefer a peaceful, private environment with personalized attention.",
-        },
-        {
-          question: "Where is your spa located in Thrissur?",
-          answer:
-            "Our spa is located at Door No. 36/5860-7, Second Floor, City Tower, near Patturaikkal Junction, Shoranur Road, Patturakkal, Thrissur Corporation, Thrissur, Kerala – 680022.",
-        },
-      ],
-
-      featured: false,
-
-      href: "/services/Happy Ending Massage-thrissur",
-    },
   ],
 
 

@@ -124,7 +124,7 @@ export default function Footer({
   ===================================================== */
 
   const whatsappMessage =
-    "Hi, I am visiting the Aris Wellness Spa website. I would like to know more about your spa services and today's availability.";
+    "Hi, I am visiting the Ella Spa website. I would like to know more about your spa services and today's availability.";
 
 
   const whatsappBaseUrl =
@@ -473,55 +473,6 @@ export default function Footer({
         </div>
 
 
-        {/* =================================================
-            FOOTER CTA
-        ================================================= */}
-
-        <div className="footer-cta">
-
-
-          <div>
-
-            <span
-              className="
-                footer-cta-eyebrow
-              "
-            >
-              / YOUR WELLNESS TIME
-            </span>
-
-
-            <h2>
-
-              Make time for
-
-              <br />
-
-              <em>
-                yourself.
-              </em>
-
-            </h2>
-
-          </div>
-
-
-          <Link
-            href="/contact"
-            className="footer-cta-button"
-          >
-
-            <span>
-              Book Your Experience
-            </span>
-
-            <span>
-              ↗
-            </span>
-
-          </Link>
-
-        </div>
 
 
         {/* =================================================

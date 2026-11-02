@@ -20,7 +20,7 @@ export const footerData = {
   ===================================================== */
 
   description:
-    "Ovia Wellness offers Sensual Massage in Thrissur, Kerala, Sensual Spa in Thrissur, Kerala, Full Body Sensual Massage in Thrissur, Kerala, Adult Massage in Thrissur, Kerala, Adult Spa in Thrissur, Kerala, Body to Body Massage in Thrissur, Kerala, B2B Massage in Thrissur, Kerala, Nuru Massage in Thrissur, Kerala, Sandwich Massage in Thrissur, Kerala, Happy Ending Massage in Thrissur, Kerala, Best Happy Ending Massage in Thrissur, Kerala, Female to Male Massage in Thrissur, Kerala, Russian Massage Girl in Thrissur, Kerala, Relax with Beautiful Girls in Thrissur, Kerala, Couple Romantic Massage in Thrissur, Kerala, and Spa Packages in Thrissur, Kerala.",
+    "Ella Spa in Mahadevapura, Bengaluru offers a relaxing spa and wellness experience conveniently located at 2nd Floor, 106/7, Whitefield Main Road, opposite Phoenix Mall, Mahadevapura, Bengaluru. Our wellness services are designed to provide a comfortable environment where guests can take a break from their daily routine, relax and recharge. Conveniently located near Phoenix Mall, Whitefield Main Road and Mahadevapura, ELLA SPA is an accessible choice for anyone looking for a quality spa, massage and wellness experience in Mahadevapura, Bengaluru.",
 
 
   /* =====================================================
@@ -90,23 +90,17 @@ export const footerData = {
         "Aromatherapy Massage",
 
       href:
-        "/services/aromatherapy-massage-thrissur",
+        "/services/aromatherapy-massage-Mahadevapura",
     },
+
+
 
     {
       label:
-        "Nuru Massage",
+        "swedish-massage",
 
       href:
-        "/services/nuru-massage-thrissur",
-    },
-
-    {
-      label:
-        "Sandwich Massage",
-
-      href:
-        "/services/swedish-massage-thrissur",
+        "/services/swedish-massage-Mahadevapura",
     },
 
     {
@@ -114,7 +108,7 @@ export const footerData = {
         "Thai Massage",
 
       href:
-        "/services/thai-massage-thrissur",
+        "/services/thai-massage-Mahadevapura",
     },
 
     {
@@ -122,7 +116,7 @@ export const footerData = {
         "Couples Massage",
 
       href:
-        "/services/couples-massage-thrissur",
+        "/services/couples-massage-Mahadevapurar",
     },
 
     {
@@ -130,23 +124,23 @@ export const footerData = {
         "Female-to-Male-Massage",
 
       href:
-        "/services/female-to-male-massage-thrissur",
+        "/services/female-to-male-massage-Mahadevapura",
     },
 
     {
       label:
-        "B2B Massage",
+        "Deep Tissue Massage",
 
       href:
-        "/services/b2b-massage-thrissur",
+        "/services/deep-tissue-massage-Mahadevapura",
     },
 
     {
       label:
-        "Happy Ending Massage",
+        "Foot Reflexology",
 
       href:
-        "/services/Happy Ending Massage-thrissur",
+        "/services/foot-reflexology-Mahadevapura",
     },
 
   ],
@@ -163,7 +157,7 @@ export const footerData = {
         "Instagram",
 
       href:
-        "https://instagram.com/",
+        "https://www.instagram.com/ellaspamahadevapura/",
 
       icon:
         "Instagram",
@@ -174,7 +168,7 @@ export const footerData = {
         "Facebook",
 
       href:
-        "https://facebook.com/",
+        "https://www.facebook.com/profile.php?id=61578014960425",
 
       icon:
         "Facebook",
@@ -185,7 +179,7 @@ export const footerData = {
         "Pinterest",
 
       href:
-        "https://pinterest.com/",
+        "https://www.pinterest.com/ellaspamahadevapura/",
 
       icon:
         "Pinterest",
@@ -196,7 +190,7 @@ export const footerData = {
         "YouTube",
 
       href:
-        "https://youtube.com/",
+        "https://www.youtube.com/@EllaSpaMahadevapura",
 
       icon:
         "YouTube",
@@ -209,22 +203,22 @@ export const footerData = {
      CONTACT
   ===================================================== */
   contact: {
-    phone: "+91 9152893353",
+    phone: "+918657891026",
 
     phoneUrl:
-      "tel:+91 9152893353",
+      "tel:+918657891026",
 
     whatsapp:
-      "+91- 9152893353",
+      "+91-8657891027",
 
     whatsappUrl:
-      "https://wa.me/91 9152893353",
+      "https://wa.me/918657891027",
 
     email:
-      "oviawellnessspa.thrissur@gmail.com",
+      "ellaspa.Mahadevapura@gmail.com",
 
     address:
-      "Door No. 36/5860-7, Second Floor, City Tower, Near Patturaikkal Junction, Shoranur Road, Patturakkal, Thrissur Corporation, Thrissur, Kerala - 680022",
+      "2nd Floor, 106/7, Whitefield Main Rd, opp. Phoenix Mall, Mahadevapura, Bengaluru",
   },
 
 };

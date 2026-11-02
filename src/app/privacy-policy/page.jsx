@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Privacy Policy | Ovia Wellness",
+  title: "Privacy Policy | ELLA SPA",
   description:
-    "Read the Privacy Policy for Ovia Wellness and learn how we collect, use and protect your information.",
+    "Read the Privacy Policy for ELLA SPA and learn how we collect, use and protect your information.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -24,7 +24,7 @@ export default function PrivacyPolicyPage() {
 
           <p>
             Your privacy matters to us. This policy explains
-            how Ovia Wellness handles information shared
+            how ELLA SPA handles information shared
             through our website.
           </p>
 
@@ -48,7 +48,7 @@ export default function PrivacyPolicyPage() {
             </h2>
 
             <p>
-              Ovia Wellness respects your privacy and is
+              ELLA SPA respects your privacy and is
               committed to protecting the information you
               provide while using our website, contacting
               our team or enquiring about our services.
@@ -110,7 +110,7 @@ export default function PrivacyPolicyPage() {
             </h2>
 
             <p>
-              If you choose to contact Ovia Wellness through
+              If you choose to contact ELLA SPA through
               WhatsApp or telephone, your communication will
               also be subject to the privacy practices and
               terms of the relevant service provider.
@@ -216,7 +216,7 @@ export default function PrivacyPolicyPage() {
             <p>
               If you have questions about this Privacy Policy
               or how your information is handled, please contact
-              Ovia Wellness through the contact information
+              ELLA SPA through the contact information
               provided on our website.
             </p>
 
@@ -224,7 +224,7 @@ export default function PrivacyPolicyPage() {
             <div className="legal-back">
 
               <Link href="/contact">
-                Contact Ovia Wellness
+                Contact ELLA SPA
               </Link>
 
               <Link href="/">

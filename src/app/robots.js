@@ -10,6 +10,6 @@ export default function robots() {
     ],
 
     sitemap:
-      "https://oviawellnessspa.in/sitemap.xml",
+      "https://ellaspa.in/sitemap.xml",
   };
 }

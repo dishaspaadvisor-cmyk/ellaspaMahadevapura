@@ -4,87 +4,206 @@ import Image from "next/image";
 import Link from "next/link";
 import {
   useEffect,
+  useRef,
   useState,
 } from "react";
 
+import { siteData } from "@/Data/siteData";
+import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
+
 export default function Hero({ hero }) {
-
   const slides = hero?.slides || [];
+  const defaultVideo = hero?.mobileVideo || "/hero/1.mp4";
 
-  const [activeSlide, setActiveSlide] =
-    useState(0);
+  const mobileVideoRef = useRef(null);
 
-  const [isChanging, setIsChanging] =
-    useState(false);
-
+  const [activeSlide, setActiveSlide] = useState(0);
+  const [isChanging, setIsChanging] = useState(false);
 
   /* =====================================================
      AUTO SLIDER
   ===================================================== */
 
   useEffect(() => {
-
     if (slides.length <= 1) return;
 
     const timer = setInterval(() => {
+      setIsChanging(true);
 
-      changeSlide(
-        (activeSlide + 1) %
-          slides.length
-      );
+      setTimeout(() => {
+        setActiveSlide(
+          (prev) => (prev + 1) % slides.length
+        );
 
+        setIsChanging(false);
+      }, 180);
     }, 7000);
 
-    return () =>
+    return () => {
       clearInterval(timer);
-
-  }, [
-    activeSlide,
-    slides.length,
-  ]);
-
+    };
+  }, [slides.length]);
 
   /* =====================================================
-     CHANGE SLIDE
+     MOBILE VIDEO AUTOPLAY
+     
+    iOS uses the Safari-compatible source when available.
   ===================================================== */
 
-  const changeSlide = (index) => {
+  useEffect(() => {
+    const video = mobileVideoRef.current;
 
-    if (index === activeSlide) return;
+    if (!video) return;
 
-    setIsChanging(true);
+    const source = video.querySelector("source");
+    const isIOS =
+      /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+      (navigator.platform === "MacIntel" &&
+        navigator.maxTouchPoints > 1);
 
-    setTimeout(() => {
+    if (isIOS && source) {
+      source.src = "/hero/1-ios.mp4";
+    }
 
-      setActiveSlide(index);
+    const playVideo = async () => {
+      try {
+        video.muted = true;
+        video.defaultMuted = true;
+        video.playsInline = true;
 
-      setIsChanging(false);
+        await video.play();
 
-    }, 180);
-  };
+        console.log(
+          "✅ Mobile hero video is playing"
+        );
+      } catch (error) {
+        console.log(
+          "❌ Mobile hero video autoplay failed:",
+          error
+        );
+      }
+    };
 
+    const handleLoadedMetadata = () => {
+      playVideo();
+    };
+
+    const handleCanPlay = () => {
+      playVideo();
+    };
+
+    const handleLoadedData = () => {
+      playVideo();
+    };
+
+    const handleError = () => {
+      if (source && source.src.endsWith("/1-ios.mp4")) {
+        source.src = defaultVideo;
+        video.load();
+        playVideo();
+      }
+    };
+
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "visible") {
+        playVideo();
+      }
+    };
+
+    const handleUserInteraction = () => {
+      playVideo();
+    };
+
+    video.addEventListener(
+      "loadedmetadata",
+      handleLoadedMetadata
+    );
+
+    video.addEventListener(
+      "canplay",
+      handleCanPlay
+    );
+
+    video.addEventListener(
+      "loadeddata",
+      handleLoadedData
+    );
+
+    video.addEventListener("error", handleError);
+
+    document.addEventListener(
+      "visibilitychange",
+      handleVisibilityChange
+    );
+
+    document.addEventListener(
+      "touchstart",
+      handleUserInteraction,
+      { once: true, passive: true }
+    );
+
+    document.addEventListener(
+      "pointerdown",
+      handleUserInteraction,
+      { once: true, passive: true }
+    );
+
+    // First attempt
+    video.load();
+    playVideo();
+
+    return () => {
+      video.removeEventListener(
+        "loadedmetadata",
+        handleLoadedMetadata
+      );
+
+      video.removeEventListener(
+        "canplay",
+        handleCanPlay
+      );
+
+      video.removeEventListener(
+        "loadeddata",
+        handleLoadedData
+      );
+
+      video.removeEventListener("error", handleError);
+
+      document.removeEventListener(
+        "visibilitychange",
+        handleVisibilityChange
+      );
+
+      document.removeEventListener(
+        "touchstart",
+        handleUserInteraction
+      );
+
+      document.removeEventListener(
+        "pointerdown",
+        handleUserInteraction
+      );
+    };
+  }, [defaultVideo]);
 
   /* =====================================================
      CURRENT SLIDE
   ===================================================== */
 
-  const current =
-    slides[activeSlide];
-
+  const current = slides[activeSlide];
 
   if (!current) {
     return null;
   }
-
 
   return (
     <section
       className="hero"
       id="home"
     >
-
       {/* =================================================
-          BACKGROUND SLIDES
+          BACKGROUND
       ================================================= */}
 
       <div
@@ -92,42 +211,60 @@ export default function Hero({ hero }) {
         aria-hidden="true"
       >
 
-        {slides.map(
-          (slide, index) => (
+        {/* =================================================
+            DESKTOP IMAGE SLIDER
+        ================================================= */}
 
-            <div
-              key={slide.image}
-              className={`
-                hero-slide-image
-                ${
-                  index === activeSlide
-                    ? "hero-slide-active"
-                    : ""
-                }
-              `}
-            >
+        {slides.map((slide, index) => (
+          <div
+            key={slide.image}
+            className={`
+              hero-slide-image
+              ${
+                index === activeSlide
+                  ? "hero-slide-active"
+                  : ""
+              }
+            `}
+          >
+            <Image
+              src={slide.image}
+              alt=""
+              fill
+              priority={index === 0}
+              sizes="100vw"
+              className="
+                hero-image
+                hero-desktop-image
+              "
+            />
+          </div>
+        ))}
 
-              <Image
-                src={slide.image}
-                alt=""
-                fill
-                priority={
-                  index === 0
-                }
-                sizes="100vw"
-                className="hero-image"
-              />
+        {/* =================================================
+            MOBILE BACKGROUND VIDEO
 
-            </div>
+            The iOS-compatible source is selected at runtime.
+        ================================================= */}
 
-          )
-        )}
+        <video
+          ref={mobileVideoRef}
+          className="hero-mobile-video"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          poster={current.image}
+          aria-hidden="true"
+        >
+          <source
+            src={defaultVideo}
+            type="video/mp4"
+          />
+        </video>
 
       </div>
-
-
-    
-
 
       {/* =================================================
           DECORATIVE GLOW
@@ -137,7 +274,6 @@ export default function Hero({ hero }) {
         className="hero-glow"
         aria-hidden="true"
       />
-
 
       {/* =================================================
           MAIN CONTENT
@@ -157,10 +293,11 @@ export default function Hero({ hero }) {
           key={activeSlide}
         >
 
-          {/* EYEBROW */}
+          {/* =================================================
+              EYEBROW
+          ================================================= */}
 
           {current.eyebrow && (
-
             <p
               className="
                 hero-eyebrow
@@ -169,11 +306,11 @@ export default function Hero({ hero }) {
             >
               {current.eyebrow}
             </p>
-
           )}
 
-
-          {/* TITLE */}
+          {/* =================================================
+              TITLE
+          ================================================= */}
 
           <h1
             className="
@@ -182,19 +319,34 @@ export default function Hero({ hero }) {
               hero-delay-1
             "
           >
-
             {current.title}
 
-            <span>
-              {current.titleAccent}
-            </span>
-
+            {current.titleAccent && (
+              <span>
+                {current.titleAccent}
+              </span>
+            )}
           </h1>
 
+          {/* =================================================
+              DESCRIPTION
+          ================================================= */}
 
+          {current.description && (
+            <p
+              className="
+                hero-description
+                hero-pop-right
+                hero-delay-2
+              "
+            >
+              {current.description}
+            </p>
+          )}
 
-
-          {/* BUTTONS */}
+          {/* =================================================
+              BUTTONS
+          ================================================= */}
 
           <div
             className="
@@ -202,56 +354,141 @@ export default function Hero({ hero }) {
               hero-pop-right
               hero-delay-3
             "
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "12px",
+              flexWrap: "nowrap",
+              width: "100%",
+              marginTop: "auto",
+            }}
           >
 
-            <Link
-              href={
-                current.primaryButton.href
-              }
-              className="hero-primary-button"
+            {/* =================================================
+                CALL BUTTON
+            ================================================= */}
+
+            <a
+              href={`tel:${siteData.contact.phone}`}
+              aria-label={`Call ${siteData.contact.phone}`}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "8px",
+
+                width: "160px",
+                minHeight: "48px",
+
+                padding: "12px 16px",
+
+                backgroundColor: "#310a0a",
+                color: "#ffffff",
+
+                border: "1px solid #310a0a",
+                borderRadius: "8px",
+
+                textDecoration: "none",
+
+                fontSize: "14px",
+                fontWeight: "600",
+                lineHeight: "1",
+
+                cursor: "pointer",
+
+                transition:
+                  "transform 0.25s ease, opacity 0.25s ease",
+
+                flexShrink: 0,
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.opacity =
+                  "0.88";
+
+                e.currentTarget.style.transform =
+                  "translateY(-2px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.opacity = "1";
+
+                e.currentTarget.style.transform =
+                  "translateY(0)";
+              }}
             >
+              <FaPhoneAlt
+                size={15}
+                aria-hidden="true"
+              />
 
-              <span>
-                {
-                  current.primaryButton
-                    .label
-                }
-              </span>
+              <span>Call Now</span>
+            </a>
 
-              <span
-                className="
-                  hero-button-arrow
-                "
-              >
-                ↗
-              </span>
+            {/* =================================================
+                WHATSAPP BUTTON
+            ================================================= */}
 
-            </Link>
+            <a
+              href={`https://wa.me/${siteData.contact.whatsapp}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Chat with us on WhatsApp"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "8px",
 
+                width: "160px",
+                minHeight: "48px",
 
-            <Link
-              href={
-                current.secondaryButton
-                  .href
-              }
-              className="
-                hero-secondary-button
-              "
+                padding: "12px 16px",
+
+                backgroundColor: "#25D366",
+                color: "#ffffff",
+
+                border: "1px solid #25D366",
+                borderRadius: "8px",
+
+                textDecoration: "none",
+
+                fontSize: "14px",
+                fontWeight: "600",
+                lineHeight: "1",
+
+                cursor: "pointer",
+
+                transition:
+                  "transform 0.25s ease, opacity 0.25s ease",
+
+                flexShrink: 0,
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.opacity =
+                  "0.88";
+
+                e.currentTarget.style.transform =
+                  "translateY(-2px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.opacity = "1";
+
+                e.currentTarget.style.transform =
+                  "translateY(0)";
+              }}
             >
+              <FaWhatsapp
+                size={18}
+                aria-hidden="true"
+              />
 
-              {
-                current.secondaryButton
-                  .label
-              }
-
-            </Link>
+              <span>WhatsApp</span>
+            </a>
 
           </div>
-
         </div>
-
       </div>
-
 
       {/* =================================================
           BOTTOM AREA
@@ -263,23 +500,20 @@ export default function Hero({ hero }) {
             STATS
         ================================================= */}
 
-        <div
-          className="
-            hero-stats
-            hero-pop-bottom
-            hero-delay-4
-          "
-          key={`stats-${activeSlide}`}
-        >
-
-          {current.stats.map(
-            (stat) => (
-
+        {current.stats?.length > 0 && (
+          <div
+            className="
+              hero-stats
+              hero-pop-bottom
+              hero-delay-4
+            "
+            key={`stats-${activeSlide}`}
+          >
+            {current.stats.map((stat) => (
               <div
                 className="hero-stat"
                 key={stat.label}
               >
-
                 <strong>
                   {stat.number}
                 </strong>
@@ -287,154 +521,33 @@ export default function Hero({ hero }) {
                 <span>
                   {stat.label}
                 </span>
-
               </div>
-
-            )
-          )}
-
-        </div>
-
-
-        {/* =================================================
-            SLIDER NAVIGATION
-        ================================================= */}
-
-        <div
-          className="
-            hero-slider-navigation
-            hero-pop-bottom
-            hero-delay-5
-          "
-        >
-
-          <div className="hero-slider-counter">
-
-            <span>
-              {String(
-                activeSlide + 1
-              ).padStart(2, "0")}
-            </span>
-
-            <span className="hero-counter-line" />
-
-            <span>
-              {String(
-                slides.length
-              ).padStart(2, "0")}
-            </span>
-
+            ))}
           </div>
-
-
-          <div className="hero-slider-dots">
-
-            {slides.map(
-              (slide, index) => (
-
-                <button
-                  key={slide.image}
-                  type="button"
-                  aria-label={`Go to slide ${
-                    index + 1
-                  }`}
-                  aria-current={
-                    index === activeSlide
-                  }
-                  onClick={() =>
-                    changeSlide(index)
-                  }
-                  className={`
-                    hero-slider-dot
-                    ${
-                      index ===
-                      activeSlide
-                        ? "active"
-                        : ""
-                    }
-                  `}
-                >
-
-                  <span />
-
-                </button>
-
-              )
-            )}
-
-          </div>
-
-        </div>
-
+        )}
 
         {/* =================================================
             SCROLL
         ================================================= */}
 
-        <Link
-          href={hero.scroll.href}
-          className="
-            hero-scroll
-            hero-pop-bottom
-            hero-delay-5
-          "
-        >
-
-          <span
+        {hero?.scroll && (
+          <Link
+            href={hero.scroll.href}
             className="
-              hero-scroll-line
+              hero-scroll
+              hero-pop-bottom
+              hero-delay-5
             "
-          />
+          >
+            <span className="hero-scroll-line" />
 
-          <span>
-            {hero.scroll.label}
-          </span>
-
-        </Link>
+            <span>
+              {hero.scroll.label}
+            </span>
+          </Link>
+        )}
 
       </div>
-
-
-      {/* =================================================
-          PREVIOUS / NEXT
-      ================================================= */}
-
-      {slides.length > 1 && (
-
-        <div className="hero-arrows">
-
-          <button
-            type="button"
-            aria-label="Previous slide"
-            onClick={() =>
-              changeSlide(
-                (activeSlide -
-                  1 +
-                  slides.length) %
-                  slides.length
-              )
-            }
-          >
-            ←
-          </button>
-
-          <button
-            type="button"
-            aria-label="Next slide"
-            onClick={() =>
-              changeSlide(
-                (activeSlide + 1) %
-                  slides.length
-              )
-            }
-          >
-            →
-          </button>
-
-        </div>
-
-      )}
-
     </section>
   );
 }

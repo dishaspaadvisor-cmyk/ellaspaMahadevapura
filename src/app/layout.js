@@ -1,18 +1,14 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
-
-
-import {
-
-  siteData,
-} from "@/Data/siteData";
-import { footerData } from "@/Data/footerData";
 import OfferPopup from "@/components/OfferPopup";
 
+import { siteData } from "@/Data/siteData";
+import { footerData } from "@/Data/footerData";
 
 /* =====================================================
    FONTS
@@ -23,16 +19,10 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
-
-/* =====================================================
-   METADATA
-===================================================== */
 
 /* =====================================================
    METADATA
@@ -41,14 +31,11 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title:
     siteData.seo?.title ||
-    "Ovia Wellness Spa | Best Spa & Massage in Thrissur",
+    "Ella Spa | Best Spa & Massage in Mahadevapura",
 
   description:
     siteData.seo?.description ||
-    "Ovia Wellness offers premium spa, massage and wellness experiences near Patturaikkal Junction, Shoranur Road, Thrissur, Kerala.",
-      /* =====================================================
-     FAVICON
-  ===================================================== */
+    "Ella Spa offers premium spa, massage and wellness experiences near Mahadevapura, Bengaluru.",
 
   icons: {
     icon: [
@@ -57,34 +44,30 @@ export const metadata = {
         type: "image/png",
       },
     ],
-
     shortcut: "/logos/logo.png",
-
     apple: "/logos/logo.png",
   },
 
-
   keywords: [
-    /* Core Spa Keywords */
+    /* =====================================================
+       CORE SPA KEYWORDS
+    ===================================================== */
+
     "spa near me",
-    "spa in Thrissur",
-    "massage spa Thrissur",
+    "spa in Mahadevapura",
+    "spa near Mahadevapura",
+    "massage spa Mahadevapura",
     "massage spa near me",
-    "spa near Patturaikkal",
-    "spa near Patturaikkal Junction",
-    "spa near Shoranur Road",
-    "spa in Patturakkal",
-    "spa in Thrissur Kerala",
-    "massage service in Thrissur",
-    "best massage spa Thrissur",
-    "best spa in Thrissur",
-    "best massage in Thrissur",
-    "massage center in Thrissur",
+    "massage near Mahadevapura",
+    "best spa Mahadevapura",
+    "best massage spa Mahadevapura",
+    "best massage in Mahadevapura",
+    "massage center Mahadevapura",
+    "massage center near me",
     "massage spa center near me",
-    "body massage spa in Thrissur",
-    "body massage center Thrissur",
+    "body massage spa Mahadevapura",
+    "body massage center Mahadevapura",
     "body spa near me",
-    "body spa in Thrissur",
     "best body spa near me",
     "best body massage near me",
     "find massage places near me",
@@ -95,44 +78,42 @@ export const metadata = {
     "local spa treatments near me",
     "spa and massage services",
     "luxury spa near me",
-    "luxury spa in Thrissur",
+    "luxury spa Mahadevapura",
     "luxury massage spa",
-    "premium spa Thrissur",
-    "relaxation spa Thrissur",
-    "spa experience Thrissur",
+    "premium spa Mahadevapura",
+    "relaxation spa Mahadevapura",
+    "spa experience Mahadevapura",
     "spa days near me",
 
-    /* Massage Services */
-    "Swedish massage Thrissur",
-    "deep tissue massage Thrissur",
-    "Thai massage Thrissur",
-    "aromatherapy massage Thrissur",
-    "foot reflexology Thrissur",
-    "head and shoulder massage Thrissur",
-    "couples massage Thrissur",
-    "couples spa Thrissur",
-    "couple massage in Thrissur",
-    "full body massage Thrissur",
-    "relaxation massage Thrissur",
-    "professional massage Thrissur",
-    "wellness massage Thrissur",
+    /* =====================================================
+       MASSAGE SERVICES
+    ===================================================== */
 
-    /* Location-Based Searches */
-    "spa near Patturaikkal Junction Thrissur",
-    "massage near Patturaikkal Junction",
-    "spa near City Tower Thrissur",
-    "massage near City Tower Thrissur",
-    "spa Shoranur Road Thrissur",
-    "massage Shoranur Road Thrissur",
-    "spa near me Patturaikkal",
-    "massage near me Patturaikkal",
+    "Swedish massage Mahadevapura",
+    "deep tissue massage Mahadevapura",
+    "Thai massage Mahadevapura",
+    "aromatherapy massage Mahadevapura",
+    "foot reflexology Mahadevapura",
+    "head and shoulder massage Mahadevapura",
+    "couples massage Mahadevapura",
+    "couples spa Mahadevapura",
+    "couple massage in Mahadevapura",
+    "full body massage Mahadevapura",
+    "relaxation massage Mahadevapura",
+    "professional massage Mahadevapura",
+    "wellness massage Mahadevapura",
 
-    /* Local Area */
-    "spa Patturakkal Thrissur",
-    "massage Patturakkal Thrissur",
-    "spa Thrissur Corporation",
-    "massage Thrissur Corporation",
-    "wellness center Thrissur",
+    /* =====================================================
+       LOCATION BASED SEARCHES
+    ===================================================== */
+
+    "spa near City Tower Mahadevapura",
+    "massage near City Tower Mahadevapura",
+    "spa near me Mahadevapura",
+    "massage near me Mahadevapura",
+    "spa Mahadevapura Bengaluru",
+    "massage Mahadevapura Bengaluru",
+    "wellness center Mahadevapura",
   ],
 
   alternates: {
@@ -141,27 +122,22 @@ export const metadata = {
 
   openGraph: {
     title:
-      "Ovia Wellness Spa | Premium Spa & Massage in Thrissur",
+      "Ella Spa | Premium Spa & Massage in Mahadevapura",
 
     description:
-      "Premium spa, massage and wellness experiences at City Tower near Patturaikkal Junction, Shoranur Road, Thrissur, Kerala.",
+      "Premium spa, massage and wellness experiences near Mahadevapura, Bengaluru.",
 
     type: "website",
     locale: "en_IN",
   },
 };
 
-
 /* =====================================================
    ROOT LAYOUT
 ===================================================== */
 
-export default function RootLayout({
-  children,
-}) {
-
+export default function RootLayout({ children }) {
   return (
-
     <html
       lang="en"
       className={`
@@ -170,35 +146,54 @@ export default function RootLayout({
       `}
       data-scroll-behavior="smooth"
     >
+      <head>
+        <meta name="google-site-verification" content="gK3fK-nwoqVMiQfi2DfictueUpuBopde69EkWvbc-_s" />
+
+        {/* =================================================
+            GOOGLE ADS / GTAG
+        ================================================= */}
+
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16643117422"
+          strategy="afterInteractive"
+        />
+
+        <Script
+          id="google-ads-gtag"
+          strategy="afterInteractive"
+        >
+          {`
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+              dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+
+            gtag('config', 'AW-16643117422');
+          `}
+        </Script>
+
+      </head>
 
       <body>
-
 
         {/* ==========================================
             GLOBAL NAVBAR
         ========================================== */}
 
         <Navbar
-          brand={
-            siteData.brand
-          }
-
-          links={
-            siteData.navbar.links
-          }
-
-          button={
-            siteData.navbar.button
-          }
+          brand={siteData.brand}
+          links={siteData.navbar.links}
+          button={siteData.navbar.button}
         />
-
 
         {/* ==========================================
             PAGE CONTENT
         ========================================== */}
 
         {children}
-
 
         {/* ==========================================
             GLOBAL FOOTER
@@ -208,56 +203,75 @@ export default function RootLayout({
           footer={{
             ...footerData,
 
-            /*
-             * Central brand data
-             */
+            /* Central brand data */
 
-            brand:
-              siteData.brand,
+            brand: siteData.brand,
 
-
-            /*
-             * Central contact data
-             */
+            /* Central contact data */
 
             contact: {
-
               ...footerData.contact,
 
-              phone:
-                siteData.contact.phone,
+              phone: siteData.contact.phone,
 
-              whatsapp:
-                siteData.contact.whatsapp,
+              whatsapp: siteData.contact.whatsapp,
 
               whatsappUrl:
                 siteData.contact.whatsappUrl ||
                 `https://wa.me/${siteData.contact.whatsapp}`,
-
             },
-
           }}
         />
-
 
         {/* ==========================================
             FLOATING CALL + WHATSAPP BUTTONS
         ========================================== */}
 
-        <FloatingButtons/>
-
+        <FloatingButtons />
 
         {/* ==========================================
             GLOBAL ₹1,999 OFFER POPUP
         ========================================== */}
 
-       <OfferPopup />
+        <OfferPopup />
 
+        {/* =================================================
+            BOOKINGBOT TRACKER
+        ================================================= */}
+
+        <Script
+          src="https://api.bookingbot.in/tracker.js"
+          data-business-id="604"
+          strategy="afterInteractive"
+        />
+
+        {/* =================================================
+            BOOKINGBOT SPA CHATBOT
+        ================================================= */}
+
+        <Script
+          id="bookingbot-spa-chatbot"
+          strategy="afterInteractive"
+        >
+          {`
+            (function () {
+              const spaId = "604";
+
+              const script = document.createElement("script");
+
+              script.src =
+                "https://chatbot.bookingbot.in/bot.js?spa=" + spaId;
+
+              script.async = true;
+
+              script.setAttribute("data-spa", spaId);
+
+              document.head.appendChild(script);
+            })();
+          `}
+        </Script>
 
       </body>
-
     </html>
-
   );
-
 }

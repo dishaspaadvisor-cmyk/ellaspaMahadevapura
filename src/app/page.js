@@ -14,6 +14,7 @@ import ContactCard from "@/components/ContactCard";
 import { servicesData } from "@/Data/servicesData";
 import { siteData } from "@/Data/siteData";
 import { faqData } from "@/Data/faqdata";
+import VirtualTour from "@/components/VirtualTour";
 
 
 
@@ -252,6 +253,9 @@ export default function Home() {
         </div>
 
       </section>
+
+
+      <VirtualTour />
 
 
 

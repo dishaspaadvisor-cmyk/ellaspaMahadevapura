@@ -1,21 +1,21 @@
 export const dynamic = "force-static";
 
-const BASE_URL = "https://oviawellnessspa.in";
+const BASE_URL = "https://ellaspa.in";
 
 export default function sitemap() {
   const services = [
-    "swedish-massage-Thrissur",
+    "swedish-massage-Mahadevapura",
     "deep-tissue-massage",
     "aromatherapy-massage",
     "thai-massage",
     "couples-massage",
     "head-shoulder-massage",
     "foot-reflexology",
-    "signature-spa-thrissur",
-    "b2b-massage-thrissur",
-    "nuru-massage-thrissur",
+    "signature-spa-Mahadevapura",
+    "b2b-massage-Mahadevapura",
+    "nuru-massage-Mahadevapura",
     "sandwich-massage-thrissu",
-    "happy-ending-massage-thrissur",
+    "happy-ending-massage-Mahadevapura",
   ];
 
   const pages = [

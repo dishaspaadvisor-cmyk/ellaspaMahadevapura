@@ -2696,7 +2696,7 @@ export default function AboutPage() {
               <div className="aura-hero-meta">
 
                 <span>
-                  Ovia Wellness
+                  ELLA SPA
                 </span>
 
                 <span className="aura-meta-dot">

@@ -1,56 +1,51 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Navbar({
   brand,
   links,
   button,
 }) {
-  const [menuOpen, setMenuOpen] =
-    useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <nav className="navbar">
-
+    <nav className={`navbar ${scrolled ? "navbar-scrolled" : ""}`}>
       <div className="navbar-container">
 
-        {/* =================================================
-            MOBILE MENU BUTTON
-        ================================================= */}
-
+        {/* MOBILE MENU */}
         <button
           type="button"
-          className={`mobile-menu-button ${menuOpen
-              ? "menu-open"
-              : ""
-            }`}
-          onClick={() =>
-            setMenuOpen(
-              !menuOpen
-            )
-          }
+          className={`mobile-menu-button ${
+            menuOpen ? "menu-open" : ""
+          }`}
+          onClick={() => setMenuOpen(!menuOpen)}
           aria-label={
             menuOpen
               ? "Close navigation"
               : "Open navigation"
           }
-          aria-expanded={
-            menuOpen
-          }
+          aria-expanded={menuOpen}
         >
-
           <span />
           <span />
-
         </button>
 
-
-        {/* =================================================
-            LOGO
-        ================================================= */}
-
+        {/* LOGO */}
         <Link
           href="/"
           className="navbar-logo navbar-animation"
@@ -63,78 +58,40 @@ export default function Navbar({
           />
         </Link>
 
-
-        {/* =================================================
-            NAVIGATION
-        ================================================= */}
-
+        {/* NAVIGATION */}
         <div
-          className={`navbar-links ${menuOpen
-              ? "navbar-links-open"
-              : ""
-            }`}
+          className={`navbar-links ${
+            menuOpen ? "navbar-links-open" : ""
+          }`}
         >
-
-          {links.map(
-            (item, index) => (
-
-              <Link
-                key={
-                  item.label
-                }
-                href={
-                  item.href
-                }
-                onClick={() =>
-                  setMenuOpen(false)
-                }
-                className={`
-                  navbar-link
-                  navbar-animation
-                  navbar-delay-${index + 1}
-                `}
-              >
-
-                {item.label}
-
-              </Link>
-
-            )
-          )}
-
+          {links.map((item, index) => (
+            <Link
+              key={item.label}
+              href={item.href}
+              onClick={() => setMenuOpen(false)}
+              className={`navbar-link navbar-animation navbar-delay-${
+                index + 1
+              }`}
+            >
+              {item.label}
+            </Link>
+          ))}
         </div>
 
-
-        {/* =================================================
-            BOOK NOW
-        ================================================= */}
-
+        {/* BOOK NOW */}
         <Link
-          href={
-            button.href
-          }
-          className="
-            navbar-cta
-            navbar-animation
-            navbar-delay-5
-          "
-          onClick={() =>
-            setMenuOpen(false)
-          }
+          href={button.href}
+          className="navbar-cta navbar-animation navbar-delay-5"
+          onClick={() => setMenuOpen(false)}
         >
-
-          <span>
-            {button.label}
-          </span>
+          <span>{button.label}</span>
 
           <span className="navbar-cta-arrow">
             ↗
           </span>
-
         </Link>
 
       </div>
-
     </nav>
   );
 }

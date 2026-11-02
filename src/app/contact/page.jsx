@@ -7,10 +7,10 @@ import ContactCard from "../../components/ContactCard";
 
 export const metadata = {
   title:
-    "Contact Ovia Wellness | Spa & Massage in Thrissur",
+    "Contact ELLA SPA | Spa & Massagein Mahadevapura",
 
   description:
-    "Contact Ovia Wellness in Thrissur, Kerala for spa, massage and wellness services. Visit us near Patturaikkal Junction on Shoranur Road or call to book your experience.",
+    "Contact Ella Spa in Mahadevapura,  Bengaluru for spa, massage and wellness services. Visit us near Patturaikkal Junction on Shoranur Road or call to book your experience.",
 
   keywords: [
     /* ================================================
@@ -18,19 +18,19 @@ export const metadata = {
     ================================================ */
 
     "spa near me",
-    "spa in Thrissur",
-    "massage spa in Thrissur",
+    "spain Mahadevapura",
+    "massage spain Mahadevapura",
     "massage spa near me",
-    "best spa in Thrissur",
-    "best massage spa Thrissur",
-    "massage center in Thrissur",
-    "body massage spa in Thrissur",
-    "luxury spa in Thrissur",
+    "best spain Mahadevapura",
+    "best massage spa Mahadevapura",
+    "massage centerin Mahadevapura",
+    "body massage spain Mahadevapura",
+    "luxury spain Mahadevapura",
     "luxury spa near me",
-    "relaxation spa Thrissur",
+    "relaxation spa Mahadevapura",
     "spa wellness center near me",
-    "wellness spa Thrissur",
-    "spa and massage services Thrissur",
+    "wellness spa Mahadevapura",
+    "spa and massage services Mahadevapura",
 
     /* ================================================
        LOCATION KEYWORDS
@@ -44,9 +44,9 @@ export const metadata = {
     "massage near Shoranur Road",
     "spa in Patturakkal",
     "massage center Patturakkal",
-    "spa near City Tower Thrissur",
-    "massage near City Tower Thrissur",
-    "spa near Thrissur Corporation",
+    "spa near City Tower Mahadevapura",
+    "massage near City Tower Mahadevapura",
+    "spa near Mahadevapura Corporation",
     "wellness center near Patturaikkal",
 
     /* ================================================
@@ -73,21 +73,21 @@ export const metadata = {
        SERVICE KEYWORDS
     ================================================ */
 
-    "full body massage Thrissur",
-    "Swedish massage Thrissur",
-    "deep tissue massage Thrissur",
-    "Thai massage Thrissur",
-    "aromatherapy massage Thrissur",
-    "foot reflexology Thrissur",
-    "head and shoulder massage Thrissur",
-    "couples massage Thrissur",
-    "couples spa Thrissur",
-    "relaxation massage Thrissur",
-    "professional massage Thrissur",
-    "massage therapy Thrissur",
-    "sports massage Thrissur",
-    "premium massage Thrissur",
-    "premium spa Thrissur",
+    "full body massage Mahadevapura",
+    "Swedish massage Mahadevapura",
+    "deep tissue massage Mahadevapura",
+    "Thai massage Mahadevapura",
+    "aromatherapy massage Mahadevapura",
+    "foot reflexology Mahadevapura",
+    "head and shoulder massage Mahadevapura",
+    "couples massage Mahadevapura",
+    "couples spa Mahadevapura",
+    "relaxation massage Mahadevapura",
+    "professional massage Mahadevapura",
+    "massage therapy Mahadevapura",
+    "sports massage Mahadevapura",
+    "premium massage Mahadevapura",
+    "premium spa Mahadevapura",
 
     /* ================================================
        GENERAL SEARCH TERMS
@@ -101,7 +101,7 @@ export const metadata = {
     "spa packages",
     "spa and massage services",
     "premium wellness experience",
-    "wellness experience Thrissur",
+    "wellness experience Mahadevapura",
   ],
 
 
@@ -139,16 +139,16 @@ export const metadata = {
 
   openGraph: {
     title:
-      "Contact Ovia Wellness | Spa & Massage in Thrissur",
+      "Contact ELLA SPA | Spa & Massagein Mahadevapura",
 
     description:
-      "Get in touch with Ovia Wellness for premium spa, massage and wellness experiences in Thrissur, Kerala. Conveniently located near Patturaikkal Junction.",
+      "Get in touch with ELLA SPA for premium spa, massage and wellness experiencesin Mahadevapura,  Bengaluru. Conveniently located near Patturaikkal Junction.",
 
     url:
       "https://example.com/contact",
 
     siteName:
-      "Ovia Wellness",
+      "ELLA SPA",
 
     type: "website",
 
@@ -163,7 +163,7 @@ export const metadata = {
         height: 630,
 
         alt:
-          "Ovia Wellness Spa in Thrissur, Kerala",
+          "Ella Spain Mahadevapura,  Bengaluru",
       },
     ],
   },
@@ -177,10 +177,10 @@ export const metadata = {
     card: "summary_large_image",
 
     title:
-      "Contact Ovia Wellness | Spa in Thrissur",
+      "Contact ELLA SPA | Spain Mahadevapura",
 
     description:
-      "Contact Ovia Wellness for spa, massage and wellness services near Patturaikkal Junction, Thrissur, Kerala.",
+      "Contact ELLA SPA for spa, massage and wellness services near Patturaikkal Junction, Mahadevapura,  Bengaluru.",
 
     images: [
       "/about/2.png",

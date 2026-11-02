@@ -9,7 +9,7 @@ export const galleryData = {
 
 
     description:
-      "Explore the calm atmosphere, thoughtful details and relaxing spaces created to make every Ovia Wellness experience feel special.",
+      "Explore the calm atmosphere, thoughtful details and relaxing spaces created to make every ELLA SPA experience feel special.",
   },
 
   images: [
@@ -18,7 +18,7 @@ export const galleryData = {
       id: 1,
       number: "01",
       image: "/gallery/3.png",
-      alt: "Elegant Ovia Wellness spa interior",
+      alt: "Elegant Ella Spa interior",
       title: "The Aura Space",
       category: "Interior",
     },
@@ -63,7 +63,7 @@ export const galleryData = {
       id: 6,
       number: "06",
       image: "/gallery/13.png",
-      alt: "Premium Ovia Wellness spa experience",
+      alt: "Premium Ella Spa experience",
       title: "Feel Renewed",
       category: "Experience",
     },

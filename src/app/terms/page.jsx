@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Terms & Conditions | Ovia Wellness",
+  title: "Terms & Conditions | ELLA SPA",
   description:
-    "Read the Terms and Conditions governing the use of the Ovia Wellness website and services.",
+    "Read the Terms and Conditions governing the use of the ELLA SPA website and services.",
 };
 
 export default function TermsPage() {
@@ -24,7 +24,7 @@ export default function TermsPage() {
 
           <p>
             Please read these terms carefully before using
-            the Ovia Wellness website or contacting us about
+            the ELLA SPA website or contacting us about
             our services.
           </p>
 
@@ -48,7 +48,7 @@ export default function TermsPage() {
             </h2>
 
             <p>
-              By accessing or using the Ovia Wellness website,
+              By accessing or using the ELLA SPA website,
               you agree to comply with these Terms & Conditions.
               If you do not agree with these terms, please do
               not use the website.
@@ -79,7 +79,7 @@ export default function TermsPage() {
 
             <p>
               Appointments are subject to availability and
-              confirmation from Ovia Wellness.
+              confirmation from ELLA SPA.
             </p>
 
 
@@ -94,7 +94,7 @@ export default function TermsPage() {
             </p>
 
             <p>
-              Ovia Wellness reserves the right to modify,
+              ELLA SPA reserves the right to modify,
               suspend or withdraw an offer when necessary.
             </p>
 
@@ -119,7 +119,7 @@ export default function TermsPage() {
               Unless otherwise stated, website content including
               text, graphics, photographs, logos, branding,
               design elements and other materials belongs to or
-              is used by Ovia Wellness with appropriate rights.
+              is used by ELLA SPA with appropriate rights.
             </p>
 
             <p>
@@ -152,7 +152,7 @@ export default function TermsPage() {
 
             <p>
               Links to third-party websites are provided for
-              convenience. Ovia Wellness does not control and
+              convenience. ELLA SPA does not control and
               is not responsible for the content, availability
               or policies of external websites.
             </p>
@@ -176,7 +176,7 @@ export default function TermsPage() {
 
             <p>
               To the extent permitted by applicable law,
-              Ovia Wellness shall not be responsible for
+              ELLA SPA shall not be responsible for
               losses arising from reliance on website content,
               temporary website unavailability or third-party
               services linked from the website.
@@ -200,7 +200,7 @@ export default function TermsPage() {
             </h2>
 
             <p>
-              Ovia Wellness may update these Terms & Conditions
+              ELLA SPA may update these Terms & Conditions
               from time to time. Updated terms will be published
               on this page together with the latest revision date.
             </p>
@@ -224,7 +224,7 @@ export default function TermsPage() {
 
             <p>
               If you have questions regarding these Terms &
-              Conditions, please contact Ovia Wellness using
+              Conditions, please contact ELLA SPA using
               the contact information provided on the website.
             </p>
 
@@ -232,7 +232,7 @@ export default function TermsPage() {
             <div className="legal-back">
 
               <Link href="/contact">
-                Contact Ovia Wellness
+                Contact ELLA SPA
               </Link>
 
               <Link href="/">

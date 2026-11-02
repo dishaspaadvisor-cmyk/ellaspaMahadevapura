@@ -50,7 +50,7 @@ export default function OfferCard({
     whatsapp || phoneNumber.replace(/\D/g, "");
 
   const whatsappMessage =
-    `Hello Ovia Wellness, I am interested in the ${offer.title}${offer.discount ? ` - ${offer.discount}` : ""
+    `Hello ELLA SPA, I am interested in the ${offer.title}${offer.discount ? ` - ${offer.discount}` : ""
     } offer.`;
 
   const whatsappUrl = whatsappNumber
@@ -100,7 +100,7 @@ export default function OfferCard({
       fontSize: "13px",
       fontWeight: 600,
       letterSpacing: "0.12em",
-      color: "#e68a20",
+      color: "#310a0a",
     },
 
     badges: {
@@ -118,7 +118,7 @@ export default function OfferCard({
       minHeight: "30px",
       padding: "6px 11px",
       borderRadius: "999px",
-      background: "#e68a20",
+      background: "#310a0a",
       color: "#ffffff",
       fontSize: "11px",
       lineHeight: 1,
@@ -181,7 +181,7 @@ export default function OfferCard({
 
     category: {
       margin: "20px 0 0",
-      color: "#e68a20",
+      color: "#310a0a",
       fontSize: "12px",
       fontWeight: 700,
       letterSpacing: "0.1em",
@@ -226,7 +226,7 @@ export default function OfferCard({
       height: "6px",
       marginTop: "7px",
       borderRadius: "50%",
-      background: "#e68a20",
+      background: "#310a0a",
     },
 
     discount: {
@@ -238,7 +238,7 @@ export default function OfferCard({
     },
 
     discountValue: {
-      color: "#e68a20",
+      color: "#310a0a",
       fontSize: "38px",
       lineHeight: 1,
       fontWeight: 700,
@@ -259,7 +259,7 @@ export default function OfferCard({
       alignItems: "center",
       gap: "8px",
       marginTop: "22px",
-      color: "#e68a20",
+      color: "#310a0a",
       textDecoration: "none",
       fontSize: "14px",
       fontWeight: 700,
@@ -289,9 +289,9 @@ export default function OfferCard({
       minHeight: "48px",
       padding: "10px 14px",
       boxSizing: "border-box",
-      border: "1px solid #e68a20",
+      border: "1px solid #310a0a",
       borderRadius: "5px",
-      background: "#e68a20",
+      background: "#310a0a",
       color: "#ffffff",
       textDecoration: "none",
       fontSize: "14px",
@@ -444,108 +444,46 @@ export default function OfferCard({
               TITLE
           ================================================= */}
 
-          <h2
-            className="offer-title-responsive"
-            style={styles.title}
-          >
-            {offer.title}
-          </h2>
-
 
           {/* =================================================
               IMAGE
           ================================================= */}
 
           {offer.image && (
-            <div style={styles.imageWrapper}>
+            <div
+              style={{
+                width: "100%",
+                height: "485px",
+                overflow: "hidden",
+                borderRadius: "14px",
+                position: "relative",
+              }}
+            >
               <img
                 src={offer.image}
                 alt={
                   offer.imageAlt ||
-                  `${offer.title} special offer at Ovia Wellness in Thrissur`
+                  `${offer.title} special offer at Ella Spa in Mahadevapura`
                 }
-                width="1200"
-                height="750"
+                width={370}
+                height={485}
                 loading={index === 0 ? "eager" : "lazy"}
                 style={{
-                  ...styles.image,
-                  objectPosition: "top",
+                  width: "100%",
+                  height: "100%",
+                  display: "block",
+                  objectFit: "cover",
+                  objectPosition: "center top",
                 }}
               />
             </div>
           )}
 
 
-          {/* =================================================
-              CATEGORY
-          ================================================= */}
-
-          {offer.category && (
-            <p style={styles.category}>
-              {offer.category}
-            </p>
-          )}
 
 
 
 
-          {/* =================================================
-              DETAILS
-          ================================================= */}
-
-          {offer.details && (
-            <p style={styles.details}>
-              {offer.details}
-            </p>
-          )}
-
-
-
-          {/* =================================================
-              DISCOUNT
-          ================================================= */}
-
-          {offer.discount && (
-            <div style={styles.discount}>
-
-              <span
-                className="offer-discount-value-responsive"
-                style={styles.discountValue}
-              >
-                {offer.discount}
-              </span>
-
-              <span style={styles.discountText}>
-                Limited Special Offer
-              </span>
-
-            </div>
-          )}
-
-
-          {/* =================================================
-              SERVICE LINK
-          ================================================= */}
-
-          {offer.href && (
-            <Link
-              href={offer.href}
-              className="offer-service-link-responsive"
-              style={styles.serviceLink}
-              aria-label={`View ${offer.title} service`}
-            >
-              <span>
-                View Service
-              </span>
-
-              <span
-                style={styles.serviceArrow}
-                aria-hidden="true"
-              >
-                ↗
-              </span>
-            </Link>
-          )}
 
 
           {/* =================================================

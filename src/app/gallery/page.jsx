@@ -11,66 +11,66 @@ import { siteData } from "@/Data/siteData";
 
 export const metadata = {
   title:
-    "Spa Gallery in Thrissur | Ovia Wellness Spa & Massage",
+    "Spa Galleryin Mahadevapura | Ella Spa & Massage",
 
   description:
-    "Explore the Ovia Wellness spa gallery in Thrissur, Kerala. View our peaceful spa atmosphere, massage spaces and wellness experience near Patturaikkal Junction.",
+    "Explore the Ella Spa galleryin Mahadevapura,  Bengaluru. View our peaceful spa atmosphere, massage spaces and wellness experience near Patturaikkal Junction.",
 
   keywords: [
     /* Core Gallery */
-    "spa gallery Thrissur",
-    "spa photos Thrissur",
-    "spa images Thrissur",
+    "spa gallery Mahadevapura",
+    "spa photos Mahadevapura",
+    "spa images Mahadevapura",
     "massage spa gallery",
     "wellness spa gallery",
-    "spa interior Thrissur",
+    "spa interior Mahadevapura",
     "luxury spa photos",
     "premium spa gallery",
     "spa experience photos",
     "massage center photos",
 
     /* Local SEO */
-    "spa in Thrissur",
+    "spain Mahadevapura",
     "spa near me",
     "spa near Patturaikkal",
     "spa near Patturaikkal Junction",
     "spa near Shoranur Road",
     "spa in Patturakkal",
-    "spa in Thrissur Kerala",
-    "massage spa Thrissur",
+    "spain Mahadevapura  Bengaluru",
+    "massage spa Mahadevapura",
     "massage spa near me",
-    "best spa in Thrissur",
-    "best massage spa Thrissur",
-    "massage center in Thrissur",
-    "body massage spa in Thrissur",
-    "luxury spa in Thrissur",
-    "premium spa Thrissur",
-    "relaxation spa Thrissur",
-    "spa experience Thrissur",
-    "wellness center Thrissur",
+    "best spain Mahadevapura",
+    "best massage spa Mahadevapura",
+    "massage centerin Mahadevapura",
+    "body massage spain Mahadevapura",
+    "luxury spain Mahadevapura",
+    "premium spa Mahadevapura",
+    "relaxation spa Mahadevapura",
+    "spa experience Mahadevapura",
+    "wellness center Mahadevapura",
     "spa wellness center near me",
 
     /* Services */
-    "Swedish massage Thrissur",
-    "deep tissue massage Thrissur",
-    "Thai massage Thrissur",
-    "aromatherapy massage Thrissur",
-    "foot reflexology Thrissur",
-    "head and shoulder massage Thrissur",
-    "couples massage Thrissur",
-    "couples spa Thrissur",
-    "full body massage Thrissur",
-    "relaxation massage Thrissur",
-    "professional massage Thrissur",
-    "wellness massage Thrissur",
+    "Swedish massage Mahadevapura",
+    "deep tissue massage Mahadevapura",
+    "Thai massage Mahadevapura",
+    "aromatherapy massage Mahadevapura",
+    "foot reflexology Mahadevapura",
+    "head and shoulder massage Mahadevapura",
+    "couples massage Mahadevapura",
+    "couples spa Mahadevapura",
+    "full body massage Mahadevapura",
+    "relaxation massage Mahadevapura",
+    "professional massage Mahadevapura",
+    "wellness massage Mahadevapura",
 
     /* Nearby Search */
-    "spa near City Tower Thrissur",
-    "massage near City Tower Thrissur",
-    "spa near Patturaikkal Junction Thrissur",
+    "spa near City Tower Mahadevapura",
+    "massage near City Tower Mahadevapura",
+    "spa near Patturaikkal Junction Mahadevapura",
     "massage near Patturaikkal Junction",
-    "spa Shoranur Road Thrissur",
-    "massage Shoranur Road Thrissur",
+    "spa Shoranur Road Mahadevapura",
+    "massage Shoranur Road Mahadevapura",
   ],
 
   /* =====================================================
@@ -105,16 +105,16 @@ export const metadata = {
 
   openGraph: {
     title:
-      "Spa Gallery in Thrissur | Ovia Wellness",
+      "Spa Galleryin Mahadevapura | ELLA SPA",
 
     description:
-      "Explore the Ovia Wellness spa gallery and discover our peaceful massage and wellness environment in Thrissur, Kerala.",
+      "Explore the Ella Spa gallery and discover our peaceful massage and wellness environmentin Mahadevapura,  Bengaluru.",
 
     url:
       "https://example.com/gallery",
 
     siteName:
-      "Ovia Wellness",
+      "ELLA SPA",
 
     type: "website",
 
@@ -129,7 +129,7 @@ export const metadata = {
         height: 630,
 
         alt:
-          "Ovia Wellness spa interior and wellness experience in Thrissur",
+          "Ella Spa interior and wellness experiencein Mahadevapura",
       },
     ],
   },
@@ -142,10 +142,10 @@ export const metadata = {
     card: "summary_large_image",
 
     title:
-      "Spa Gallery in Thrissur | Ovia Wellness",
+      "Spa Galleryin Mahadevapura | ELLA SPA",
 
     description:
-      "Explore the Ovia Wellness spa, massage and wellness gallery in Thrissur, Kerala.",
+      "Explore the Ella Spa, massage and wellness galleryin Mahadevapura,  Bengaluru.",
 
     images: [
       "/about/2.png",
@@ -220,13 +220,6 @@ export default function GalleryPage() {
             {page.description}
           </p>
 
-
-          {/* LOCATION */}
-          <p className="gallery-location">
-            Ovia Wellness, City Tower,
-            Near Patturaikkal Junction,
-            Shoranur Road, Thrissur, Kerala
-          </p>
 
         </div>
 
@@ -319,7 +312,7 @@ export default function GalleryPage() {
           <p>
             Discover a calm and thoughtful
             wellness experience created
-            around you in Thrissur.
+            around youin Mahadevapura.
           </p>
 
 

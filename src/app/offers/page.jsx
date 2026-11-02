@@ -10,68 +10,68 @@ import { offersData } from "@/Data/offerdata";
 
 export const metadata = {
   title:
-    "Spa Offers in Thrissur | 25% Off Massage Offers | Ovia Wellness",
+    "Spa Offersin Mahadevapura | 25% Off Massage Offers | ELLA SPA",
 
   description:
-    "Discover special spa offers at Ovia Wellness in Thrissur, Kerala. Enjoy selected massage and wellness experiences with 25% special offers near Patturaikkal Junction.",
+    "Discover special spa offers at Ella Spa in Mahadevapura,  Bengaluru. Enjoy selected massage and wellness experiences with 25% special offers near Patturaikkal Junction.",
 
   keywords: [
     /* Location + Spa */
-    "spa offers in Thrissur",
-    "spa offers Thrissur",
+    "spa offersin Mahadevapura",
+    "spa offers Mahadevapura",
     "spa near me",
-    "spa in Thrissur",
-    "massage spa Thrissur",
+    "spain Mahadevapura",
+    "massage spa Mahadevapura",
     "massage spa near me",
     "spa near Patturaikkal",
     "spa near Patturaikkal Junction",
     "spa near Shoranur Road",
     "spa in Patturakkal",
-    "spa in Thrissur Kerala",
-    "massage service in Thrissur",
-    "best massage spa Thrissur",
-    "best spa in Thrissur",
-    "massage center in Thrissur",
-    "body massage spa in Thrissur",
-    "luxury spa in Thrissur",
+    "spain Mahadevapura  Bengaluru",
+    "massage servicein Mahadevapura",
+    "best massage spa Mahadevapura",
+    "best spain Mahadevapura",
+    "massage centerin Mahadevapura",
+    "body massage spain Mahadevapura",
+    "luxury spain Mahadevapura",
     "luxury spa near me",
-    "premium spa Thrissur",
-    "relaxation spa Thrissur",
-    "spa experience Thrissur",
+    "premium spa Mahadevapura",
+    "relaxation spa Mahadevapura",
+    "spa experience Mahadevapura",
     "spa wellness center near me",
 
     /* Offers */
     "special spa offers",
     "spa special offers",
-    "massage offers Thrissur",
-    "massage discount Thrissur",
-    "spa discount Thrissur",
+    "massage offers Mahadevapura",
+    "massage discount Mahadevapura",
+    "spa discount Mahadevapura",
     "25% off massage",
     "25% off spa",
-    "massage deals Thrissur",
-    "spa deals Thrissur",
+    "massage deals Mahadevapura",
+    "spa deals Mahadevapura",
     "special massage offers",
     "premium spa offers",
-    "spa packages Thrissur",
+    "spa packages Mahadevapura",
     "massage spa offers near me",
 
     /* Massage */
-    "full body massage Thrissur",
-    "relaxation massage Thrissur",
-    "professional massage Thrissur",
-    "wellness massage Thrissur",
-    "deep tissue massage Thrissur",
-    "Thai massage Thrissur",
-    "aromatherapy massage Thrissur",
-    "couples massage Thrissur",
-    "couples spa Thrissur",
+    "full body massage Mahadevapura",
+    "relaxation massage Mahadevapura",
+    "professional massage Mahadevapura",
+    "wellness massage Mahadevapura",
+    "deep tissue massage Mahadevapura",
+    "Thai massage Mahadevapura",
+    "aromatherapy massage Mahadevapura",
+    "couples massage Mahadevapura",
+    "couples spa Mahadevapura",
 
     /* Featured Services */
-    "Nuru Massage Thrissur",
-    "B2B Massage Thrissur",
-    "Body to Body Massage Thrissur",
-    "Sandwich Massage Thrissur",
-    "Happy Ending Massage Thrissur",
+    "Nuru Massage Mahadevapura",
+    "B2B Massage Mahadevapura",
+    "Body to Body Massage Mahadevapura",
+    "Sandwich Massage Mahadevapura",
+    "Happy Ending Massage Mahadevapura",
   ],
 
   /* =====================================================
@@ -106,16 +106,16 @@ export const metadata = {
 
   openGraph: {
     title:
-      "Spa Offers in Thrissur | Special Massage Offers | Ovia Wellness",
+      "Spa Offersin Mahadevapura | Special Massage Offers | ELLA SPA",
 
     description:
-      "Enjoy special spa and massage offers at Ovia Wellness in Thrissur, Kerala. Discover selected wellness experiences with special savings.",
+      "Enjoy special spa and massage offers at Ella Spa in Mahadevapura,  Bengaluru. Discover selected wellness experiences with special savings.",
 
     url:
       "https://example.com/offers",
 
     siteName:
-      "Ovia Wellness",
+      "ELLA SPA",
 
     type: "website",
 
@@ -130,7 +130,7 @@ export const metadata = {
         height: 630,
 
         alt:
-          "Ovia Wellness spa offers in Thrissur, Kerala",
+          "Ella Spa offersin Mahadevapura,  Bengaluru",
       },
     ],
   },
@@ -143,10 +143,10 @@ export const metadata = {
     card: "summary_large_image",
 
     title:
-      "Spa Offers in Thrissur | Ovia Wellness",
+      "Spa Offersin Mahadevapura | ELLA SPA",
 
     description:
-      "Discover special massage and wellness offers at Ovia Wellness in Thrissur, Kerala.",
+      "Discover special massage and wellness offers at Ella Spa in Mahadevapura,  Bengaluru.",
 
     images: [
       "/offer/nuru-massage.jpg",
@@ -213,13 +213,6 @@ export default function OffersPage() {
             {offersData.page.description}
           </p>
 
-
-          {/* LOCATION */}
-          {offersData.page.location && (
-            <p className="offers-location">
-              {offersData.page.location}
-            </p>
-          )}
 
         </div>
 
